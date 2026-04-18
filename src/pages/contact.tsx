@@ -4,13 +4,38 @@ import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AnimatedSection } from '../components/AnimatedSection';
 
+const FORMSPREE_URL = 'https://formspree.io/f/maqaoklk'; // Paste your Formspree form URL here
+
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 5000);
+    setError(null);
+    const formData = new FormData(e.target as HTMLFormElement);
+    console.log('Submitting form with data:', Object.fromEntries(formData));
+    try {
+      const response = await fetch(FORMSPREE_URL, {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+      console.log('Response status:', response.status);
+      if (response.ok) {
+        setSubmitted(true);
+        setTimeout(() => setSubmitted(false), 5000);
+      } else {
+        const errorText = await response.text();
+        console.error('Form submission failed:', response.status, errorText);
+        setError('Failed to send message. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      setError('Network error. Please check your connection and try again.');
+    }
   };
 
   return (
@@ -34,26 +59,35 @@ const Contact = () => {
             
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label className="block font-body text-sm font-medium text-nzx-dark mb-1">Full Name</label>
-                <input type="text" required className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-nzx-green focus:border-transparent outline-none transition-all font-body text-sm" placeholder="e.g. Ramesh Kumar" />
+                <label htmlFor="contact-name" className="block font-body text-sm font-medium text-nzx-dark mb-1">Full Name</label>
+                <input id="contact-name" type="text" name="name" required className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-nzx-green focus:border-transparent outline-none transition-all font-body text-sm" placeholder="e.g. Ramesh Kumar" />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label className="block font-body text-sm font-medium text-nzx-dark mb-1">Email <span className="text-gray-400 font-normal">(Optional)</span></label>
-                  <input type="email" className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-nzx-green focus:border-transparent outline-none transition-all font-body text-sm" placeholder="ramesh@example.com" />
+                  <label htmlFor="contact-email" className="block font-body text-sm font-medium text-nzx-dark mb-1">Email <span className="text-gray-400 font-normal">(Optional)</span></label>
+                  <input id="contact-email" type="email" name="email" className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-nzx-green focus:border-transparent outline-none transition-all font-body text-sm" placeholder="ramesh@example.com" />
                 </div>
                 <div>
-                  <label className="block font-body text-sm font-medium text-nzx-dark mb-1">Phone Number</label>
-                  <input type="tel" required className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-nzx-green focus:border-transparent outline-none transition-all font-body text-sm" placeholder="+91 98765 43210" />
+                  <label htmlFor="contact-phone" className="block font-body text-sm font-medium text-nzx-dark mb-1">Phone Number</label>
+                  <input id="contact-phone" type="tel" name="phone" required className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-nzx-green focus:border-transparent outline-none transition-all font-body text-sm" placeholder="+91 98765 43210" />
                 </div>
               </div>
               <div>
-                <label className="block font-body text-sm font-medium text-nzx-dark mb-1">How can we help?</label>
-                <textarea required rows={4} className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-nzx-green focus:border-transparent outline-none transition-all font-body text-sm resize-none" placeholder="Provide details about your crops or query..."></textarea>
+                <label htmlFor="contact-message" className="block font-body text-sm font-medium text-nzx-dark mb-1">How can we help?</label>
+                <textarea id="contact-message" required name="message" rows={4} className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-nzx-green focus:border-transparent outline-none transition-all font-body text-sm resize-none" placeholder="Provide details about your crops or query..."></textarea>
               </div>
               
               <AnimatePresence mode="wait">
-                {submitted ? (
+                {error ? (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0 }}
+                    className="p-4 bg-red-100 text-red-700 rounded-lg border border-red-200 font-body text-sm flex items-center gap-2"
+                  >
+                    <span>✗</span> {error}
+                  </motion.div>
+                ) : submitted ? (
                   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
