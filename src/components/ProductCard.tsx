@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { productsData } from '../data/products-data';
+import { productsListing } from '../data/products-listing';
 
 interface ProductCardProps {
   id: string;
@@ -10,7 +10,7 @@ interface ProductCardProps {
 }
 
 export const ProductCard: React.FC<ProductCardProps> = ({ id, linkTo }) => {
-  const product = productsData.find(p => p.id === id);
+  const product = productsListing.find(p => p.id === id);
   if (!product) return null;
 
   return (

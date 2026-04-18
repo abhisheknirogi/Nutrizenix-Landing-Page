@@ -1,15 +1,21 @@
-import ProductPageLayout from '../../components/ProductPageLayout';
 import React from 'react';
+import type { ProductData } from '../../types/product';
+import { ProductPageTemplate } from '../../components/ProductPageTemplate';
 
-const NutriFerti3: React.FC = () => {
-  return (
-    <ProductPageLayout productId="nutri-ferti3">
-    <div className="product-page">
-      <h1>Nutri-ferti3 Product</h1>
-      <p>Details about Nutri-ferti3 product will go here.</p>
-    </div>
-      </ProductPageLayout>
-);
+const productData: ProductData = {
+  id: "nutri-ferti3",
+  name: "Nutri-Ferti 3",
+  category: "Fertigation",
+  tagline: "Mid-season nutrient balance for peak performance",
+  oneLiner: "Bridges the transition from vegetative to reproductive growth with balanced mid-season nutrition.",
+  description: "Nutrizenix Nutri-Ferti 3 is a premium fertigation designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
+  benefits: ["Optimized for drip and micro-irrigation","Fully water-soluble with no residue","Balanced N:P:K ratio for the growth stage","Safe for sensitive crops and soils"],
+  image: "/src/assets/products/nutri-ferti3.jpg",
+  relatedIds: ["nutri-ferti4", "nutri-ferti5", "nutri-ferti6"]
 };
 
-export default NutriFerti3;
+const NutriFerti3Page: React.FC = () => {
+  return <ProductPageTemplate {...productData} />;
+};
+
+export default NutriFerti3Page;

@@ -12,7 +12,7 @@ export const Footer = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
-          
+
           <div>
             <div className="w-[160px] h-[44px] border border-white/30 rounded-md flex items-center justify-center font-body font-semibold text-sm mb-4">
               [ NUTRIZENIX LOGO ]
@@ -34,13 +34,22 @@ export const Footer = () => {
 
           <div>
             <h4 className="font-heading text-lg text-white mb-4">Contact Info</h4>
-            <div className="text-sm space-y-2">
-              <p>Email: Support Placeholder</p>
-              <p>Phone: Phone Placeholder</p>
-              <p>Address: Office Location India</p>
+            <div className="text-sm space-y-3">
+              <div className="flex gap-2">
+                <span className="text-nzx-gold"></span>
+                <a href="mailto:sakashagrotech@gmail.com" className="hover:text-nzx-gold transition-colors">sakashagrotech@gmail.com</a>
+              </div>
+              <div className="flex gap-2">
+                <span className="text-nzx-gold"></span>
+                <a href="tel:+918088773868" className="hover:text-nzx-gold transition-colors">+91 8088773868</a>
+              </div>
+              <div className="flex gap-2 items-start">
+                <span className="text-nzx-gold"></span>
+                <a href="https://www.google.com/maps/search/?api=1&query=SAKASH+AGRO+TECH+PVT+LTD" target="_blank" rel="noopener noreferrer" className="hover:text-nzx-gold transition-colors leading-relaxed">SAKASH AGRO TECH PVT. LTD.,<br />Yelachaguppe Village, Gridpalya,<br />Bengaluru Urban – 562130,<br />Karnataka, India</a>
+              </div>
             </div>
           </div>
-          
+
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-white/60">

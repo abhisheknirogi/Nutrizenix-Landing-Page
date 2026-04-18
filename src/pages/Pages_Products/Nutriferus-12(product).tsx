@@ -1,15 +1,21 @@
-import ProductPageLayout from '../../components/ProductPageLayout';
 import React from 'react';
+import type { ProductData } from '../../types/product';
+import { ProductPageTemplate } from '../../components/ProductPageTemplate';
 
-const Nutriferus12: React.FC = () => {
-  return (
-    <ProductPageLayout productId="nutriferus-12">
-    <div className="product-page">
-      <h1>Nutriferus-12 Product</h1>
-      <p>Details about Nutriferus-12 product will go here.</p>
-    </div>
-      </ProductPageLayout>
-);
+const productData: ProductData = {
+  id: "nutriferus-12",
+  name: "Nutriferus-12",
+  category: "12-Element Mix",
+  tagline: "12-element complex for deficiency management",
+  oneLiner: "Comprehensive 12-micronutrient formula for correcting complex, multiple-deficiency situations.",
+  description: "Nutrizenix Nutriferus-12 is a premium 12-element mix designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
+  benefits: ["Corrects nutrient deficiency quickly","Suitable for foliar and soil application","Compatible with most fertilizer schedules","Improves crop quality and marketable yield"],
+  image: "/src/assets/products/nutriferus-12.jpg",
+  relatedIds: ["nutrigold", "nutrigrow", "nutrimag"]
 };
 
-export default Nutriferus12;
+const Nutriferus12Page: React.FC = () => {
+  return <ProductPageTemplate {...productData} />;
+};
+
+export default Nutriferus12Page;

@@ -1,13 +1,13 @@
 import React, { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { ProductCard } from '../components/ProductCard';
-import { productsData } from '../data/products-data';
+import { productsListing } from '../data/products-listing';
 
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const filteredProducts = useMemo(() => {
-    return productsData.filter(p =>
+    return productsListing.filter(p =>
       p.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
       p.category.toLowerCase().includes(searchTerm.toLowerCase())
     );
@@ -47,7 +47,7 @@ const Products = () => {
             className="w-full border border-[#1A6B2A] rounded-lg px-4 py-3 focus:ring-2 focus:ring-[#1A6B2A] outline-none text-gray-800 bg-white shadow-sm"
           />
           <p className="text-white/70 text-sm mt-3">
-            Showing {filteredProducts.length} of {productsData.length} products
+            Showing {filteredProducts.length} of {productsListing.length} products
           </p>
         </motion.div>
       </div>

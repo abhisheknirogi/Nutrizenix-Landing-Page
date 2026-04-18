@@ -56,7 +56,7 @@ const Contact = () => {
           <AnimatedSection delay={0}>
             <h2 className="font-heading text-3xl text-nzx-dark mb-6">Get in Touch</h2>
             <p className="font-body text-nzx-mid mb-10">We're here to help you find the right nutrient solutions for your crops. Reach out to our agricultural experts today.</p>
-            
+
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="contact-name" className="block font-body text-sm font-medium text-nzx-dark mb-1">Full Name</label>
@@ -76,7 +76,7 @@ const Contact = () => {
                 <label htmlFor="contact-message" className="block font-body text-sm font-medium text-nzx-dark mb-1">How can we help?</label>
                 <textarea id="contact-message" required name="message" rows={4} className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-nzx-green focus:border-transparent outline-none transition-all font-body text-sm resize-none" placeholder="Provide details about your crops or query..."></textarea>
               </div>
-              
+
               <AnimatePresence mode="wait">
                 {error ? (
                   <motion.div
@@ -108,27 +108,27 @@ const Contact = () => {
               </AnimatePresence>
             </form>
           </AnimatedSection>
-          
+
           <AnimatedSection delay={0.2}>
             <div className="space-y-8">
               <div className="bg-nzx-green-light rounded-xl p-8 border border-nzx-green/10">
                 <h3 className="font-heading text-xl text-nzx-dark mb-6">Our Details</h3>
                 <div className="space-y-4 font-body text-nzx-mid text-sm">
                   <div className="flex gap-4">
-                    <span className="text-nzx-gold">📍</span>
-                    <a href=" https://www.google.com/maps/search/?api=1&query=SAKASH+AGRO+TECH+PVT+LTD,+Site+No+25,+Survey+No+121,+Yelachaguppe+Village,+Gridpalya,+Gokula+Road,+Tavarekere+Hobli,+Bengaluru,+Karnataka+562130" target="_blank" className="text-nzx-dark hover:text-nzx-green transition-colors">SAKASH AGRO TECH PVT. LTD.,<br/>Site No.25, Survey No.121,<br/>Yelachaguppe Village,<br/>Gridpalya,Gokula Road,<br/>Tavarekere Hobli,<br/>Bengaluru Urban -562130,<br/>Karnataka,India</a>
+                    <span className="text-nzx-gold"></span>
+                    <a href=" https://www.google.com/maps/search/?api=1&query=SAKASH+AGRO+TECH+PVT+LTD,+Site+No+25,+Survey+No+121,+Yelachaguppe+Village,+Gridpalya,+Gokula+Road,+Tavarekere+Hobli,+Bengaluru,+Karnataka+562130" target="_blank" className="text-nzx-dark hover:text-nzx-green transition-colors">SAKASH AGRO TECH PVT. LTD.,<br />Site No.25, Survey No.121,<br />Yelachaguppe Village,<br />Gridpalya,Gokula Road,<br />Tavarekere Hobli,<br />Bengaluru Urban -562130,<br />Karnataka,India</a>
                   </div>
                   <div className="flex gap-4">
-                    <span className="text-nzx-gold">📞</span>
-                    <a href="tel:+918088773868" className="text-nzx-dark hover:text-nzx-green transition-colors">+91 8088773868<br/><span className="text-gray-500 text-xs">Mon-Sat, 9AM to 6PM</span></a>
+                    <span className="text-nzx-gold"></span>
+                    <a href="tel:+918088773868" className="text-nzx-dark hover:text-nzx-green transition-colors">+91 8088773868<br /><span className="text-gray-500 text-xs">Mon-Sat, 9AM to 6PM</span></a>
                   </div>
                   <div className="flex gap-4">
-                    <span className="text-nzx-gold">✉️</span>
+                    <span className="text-nzx-gold"></span>
                     <a href="mailto:sakashagrotech@gmail.com" className="text-nzx-dark hover:text-nzx-green transition-colors">sakashagrotech@gmail.com</a>
                   </div>
                 </div>
               </div>
-              
+
               <div className="h-64 w-full bg-nzx-green-light border-2 border-dashed border-nzx-green/30 rounded-xl flex items-center justify-center text-nzx-dark font-body font-semibold">
                 [ Google Maps Embed Placeholder ]
               </div>

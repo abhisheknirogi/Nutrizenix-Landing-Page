@@ -1,15 +1,21 @@
-import ProductPageLayout from '../../components/ProductPageLayout';
 import React from 'react';
+import type { ProductData } from '../../types/product';
+import { ProductPageTemplate } from '../../components/ProductPageTemplate';
 
-const Boronplus: React.FC = () => {
-  return (
-    <ProductPageLayout productId="boronplus">
-    <div className="product-page">
-      <h1>Boronplus Product</h1>
-      <p>Details about Boronplus product will go here.</p>
-    </div>
-      </ProductPageLayout>
-);
+const productData: ProductData = {
+  id: "boronplus",
+  name: "Boronplus",
+  category: "Boron",
+  tagline: "Precision boron nutrition for Indian crops",
+  oneLiner: "Soluble boron formulation for correcting deficiencies across a wide range of crops.",
+  description: "Nutrizenix Boronplus is a premium boron designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
+  benefits: ["Improves pollination and fruit set","Enhances sugar translocation","Reduces hollow heart in root vegetables","Effective at low application rates"],
+  image: "/src/assets/products/boronplus.jpg",
+  relatedIds: ["calbon", "calon", "citron"]
 };
 
-export default Boronplus;
+const BoronplusPage: React.FC = () => {
+  return <ProductPageTemplate {...productData} />;
+};
+
+export default BoronplusPage;
