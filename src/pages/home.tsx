@@ -70,20 +70,20 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 divide-x-0 md:divide-x divide-gray-200 text-center">
             <div className="flex flex-col items-center justify-center p-4">
-              <span className="text-4xl md:text-5xl font-heading font-bold text-nzx-green">37+</span>
-              <span className="text-nzx-mid font-body mt-2">Products</span>
+              <span className="text-4xl md:text-4xl font-heading font-bold text-nzx-green">Diverse</span>
+              <span className="text-nzx-mid font-body mt-2">Portfolio</span>
             </div>
             <div className="flex flex-col items-center justify-center p-4">
-              <span className="text-4xl md:text-5xl font-heading font-bold text-nzx-green">Pan-India</span>
-              <span className="text-nzx-mid font-body mt-2">Reach</span>
+              <span className="text-4xl md:text-4xl font-heading font-bold text-nzx-green">Sustainable</span>
+              <span className="text-nzx-mid font-body mt-2">Farming</span>
             </div>
             <div className="flex flex-col items-center justify-center p-4">
-              <span className="text-4xl md:text-5xl font-heading font-bold text-nzx-green">Trusted</span>
-              <span className="text-nzx-mid font-body mt-2">by Farmers</span>
+              <span className="text-4xl md:text-4xl font-heading font-bold text-nzx-green">Advanced</span>
+              <span className="text-nzx-mid font-body mt-2">Nutrition</span>
             </div>
             <div className="flex flex-col items-center justify-center p-4">
-              <span className="text-4xl md:text-5xl font-heading font-bold text-nzx-green">Quality</span>
-              <span className="text-nzx-mid font-body mt-2">Assured</span>
+              <span className="text-4xl md:text-4xl font-heading font-bold text-nzx-green">Empowered</span>
+              <span className="text-nzx-mid font-body mt-2">Growers</span>
             </div>
           </div>
         </div>
@@ -151,33 +151,33 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
             <SectionHeader
-              label="The Nutrizenix Advantage"
-              title="Why Choose Us"
+              label="What Do We Offer?"
+              title="Innovation at the Core"
             />
           </AnimatedSection>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
             <AnimatedSection delay={0.1}>
               <div className="bg-white border border-gray-100 rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow h-full flex flex-col items-center text-center">
-                <div className="text-nzx-gold text-4xl mb-4">✅</div>
-                <h3 className="font-heading text-xl text-nzx-dark mb-3">Scientifically Formulated</h3>
-                <p className="font-body text-nzx-mid text-sm">Advanced nutrient profiles specifically designed to address common soil deficiencies across India.</p>
+                <div className="text-nzx-gold text-4xl mb-4">💡</div>
+                <h3 className="font-heading text-xl text-nzx-dark mb-3">Innovation & Performance</h3>
+                <p className="font-body text-nzx-mid text-sm">Our solutions are meticulously tailored to optimize growth, amplify plant health, and elevate yields.</p>
               </div>
             </AnimatedSection>
             
             <AnimatedSection delay={0.2}>
               <div className="bg-white border border-gray-100 rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow h-full flex flex-col items-center text-center">
-                <div className="text-nzx-gold text-4xl mb-4">🌾</div>
-                <h3 className="font-heading text-xl text-nzx-dark mb-3">Crop-Specific</h3>
-                <p className="font-body text-nzx-mid text-sm">Targeted formulas ensuring that your specific crop gets exactly what it needs, when it needs it.</p>
+                <div className="text-nzx-gold text-4xl mb-4">🌱</div>
+                <h3 className="font-heading text-xl text-nzx-dark mb-3">Cultivating Sustainability</h3>
+                <p className="font-body text-nzx-mid text-sm">Developing biostimulants and organic fertilizers that nourish plants while minimizing ecological impact.</p>
               </div>
             </AnimatedSection>
 
             <AnimatedSection delay={0.3}>
               <div className="bg-white border border-gray-100 rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow h-full flex flex-col items-center text-center">
-                <div className="text-nzx-gold text-4xl mb-4">🏆</div>
-                <h3 className="font-heading text-xl text-nzx-dark mb-3">Quality Assured</h3>
-                <p className="font-body text-nzx-mid text-sm">Stringent quality control protocols from raw material sourcing to final packaging.</p>
+                <div className="text-nzx-gold text-4xl mb-4">🤝</div>
+                <h3 className="font-heading text-xl text-nzx-dark mb-3">Empowering Growers</h3>
+                <p className="font-body text-nzx-mid text-sm">Providing personalized guidance and expert support so every grower reaps the maximum benefits.</p>
               </div>
             </AnimatedSection>
           </div>
@@ -188,8 +188,8 @@ const Home = () => {
       <AnimatedSection>
         <div className="bg-nzx-green text-white py-16 px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="font-heading font-bold text-3xl md:text-5xl mb-4">Ready to Transform Your Yield?</h2>
-            <p className="font-body text-lg text-white/80 mb-8">Partner with Nutrizenix for precision crop nutrition.</p>
+            <h2 className="font-heading font-bold text-3xl md:text-5xl mb-4">Cultivating Excellence, Growing Future</h2>
+            <p className="font-body text-lg text-white/80 mb-8">Join us in revolutionizing sustainable agriculture with advanced plant nutrition.</p>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="inline-block">
               <Link to="/contact" className="bg-nzx-gold hover:bg-yellow-600 text-white font-body font-bold text-lg px-8 py-4 rounded-xl shadow-lg transition-colors">
                 Contact Us Today

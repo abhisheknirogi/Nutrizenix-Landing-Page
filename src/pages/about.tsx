@@ -19,27 +19,51 @@ const About = () => {
         </AnimatedSection>
       </section>
 
-      {/* Brand Story */}
+      {/* Brand Story and Company Info */}
       <section className="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <AnimatedSection delay={0}>
             <SectionHeader
-              label="Our Story"
-              title="Rooted in Science, Grown with Care"
+              label="ABOUT US"
+              title="SAKASH AGRO TECH PVT. LTD."
               className="text-left"
             />
-            <div className="space-y-4 font-body text-nzx-mid leading-relaxed mt-6">
+            <h3 className="font-heading text-2xl text-nzx-gold mb-6 mt-2">
+              Nurturing Growth, Cultivating Excellence
+            </h3>
+            <div className="space-y-4 font-body text-nzx-mid leading-relaxed text-justify">
               <p>
-                Founded on the principle of delivering precise nourishment to India's diverse agricultural landscape, Nutrizenix has grown into a trusted partner for farmers nationwide. 
+                <strong>SAKASH AGRO TECH PVT. LTD.</strong> is a dynamic and forward-thinking company specializing in unique foliar solutions for modern agriculture. Driven by a deep passion for farming and a strong commitment to environmental stewardship, we are dedicated to redefining the way farmers nourish and protect their crops.
               </p>
               <p>
-                We recognize that modern farming requires more than just basic NPK fertilizers. Our specialty micronutrients and secondary nutrient compounds are engineered to correct specific soil deficiencies, enhance nutrient uptake, and ultimately drive higher, healthier yields.
+                Founded in Bengaluru, SAKASH AGRO TECH PVT. LTD., with its product brand <strong>Nutrizenix &ndash; Innovation That Grows</strong>, has emerged as a beacon of innovation and technical excellence in the agricultural landscape. Established with a vision to revolutionize sustainable agriculture, the company embarked on a journey driven by continuous research, development, and progressive growth.
               </p>
             </div>
           </AnimatedSection>
           
-          <AnimatedSection delay={0.2} className="relative w-full h-[400px] bg-nzx-green-light border-2 border-dashed border-nzx-green flex items-center justify-center rounded-2xl">
-            <span className="font-body text-nzx-dark font-semibold">Brand Story Image Placeholder</span>
+          <AnimatedSection delay={0.2} className="space-y-6">
+            <div className="p-8 bg-nzx-green-light rounded-2xl border-l-4 border-nzx-gold shadow-sm mt-8 lg:mt-0">
+              <p className="font-body text-nzx-dark mb-4 leading-relaxed">
+                At SAKASH AGRO TECH PVT. LTD., we specialize in the development, manufacturing, and marketing of a comprehensive range of agricultural solutions. Our diverse product portfolio includes:
+              </p>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 font-body text-nzx-mid">
+                {['Suspension Fertilizers', 'Solution Fertilizers', 'Foliar Liquid Fertilizers', 'Bio-stimulants', 'Organic Fertilizers', 'Micronutrients'].map((item, i) => (
+                  <li key={i} className="flex items-center space-x-2">
+                    <span className="text-nzx-gold">❖</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            
+            <div className="space-y-4 font-body text-nzx-mid leading-relaxed text-justify">
+              <p>
+                Each product is thoughtfully designed to enhance crop nutrition, improve yield quality, and promote sustainable farming practices. By combining advanced technology with deep agronomic knowledge, we empower farmers to achieve healthier crops and better productivity while caring for the environment.
+              </p>
+              <p className="font-semibold text-nzx-green">
+                SAKASH AGRO TECH PVT. LTD. continues to stand committed to innovation, quality, and farmer success, nurturing growth at every stage of agriculture.
+              </p>
+            </div>
           </AnimatedSection>
         </div>
       </section>

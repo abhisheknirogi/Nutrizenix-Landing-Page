@@ -10,7 +10,7 @@ const WhyUs = () => {
       {/* Hero Banner */}
       <section className="bg-gradient-to-r from-nzx-green to-nzx-green-mid py-24 text-center">
         <AnimatedSection>
-          <h1 className="font-heading text-4xl md:text-5xl text-white mb-4">Why Nutrizenix</h1>
+          <h1 className="font-heading text-4xl md:text-5xl text-white mb-4">What Do We Offer?</h1>
           <div className="font-body text-white/80 text-sm">
             <Link to="/" className="hover:text-nzx-gold transition-colors">Home</Link>
             <span className="mx-2">/</span>
@@ -19,68 +19,62 @@ const WhyUs = () => {
         </AnimatedSection>
       </section>
 
-      {/* Trust Strip */}
-      <section className="py-12 border-b border-gray-100 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-nzx-mid font-body font-medium flex flex-wrap gap-8 justify-center items-center">
-          <span className="flex items-center gap-2"><span className="text-nzx-gold">✔</span> ISO Quality</span>
-          <span className="flex items-center gap-2"><span className="text-nzx-gold">✔</span> Farm Tested</span>
-          <span className="flex items-center gap-2"><span className="text-nzx-gold">✔</span> Pan-India</span>
-          <span className="flex items-center gap-2"><span className="text-nzx-gold">✔</span> Expert Support</span>
-        </div>
-      </section>
-
-      {/* 6 Benefit Cards */}
+      {/* Main Content Sections */}
       <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeader label="Advantages" title="What Makes Us Different" subtitle="Explore the reasons thousands of Indian farmers trust our science and our products." />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          
+          <AnimatedSection delay={0.1}>
+            <div className="bg-white border text-left p-10 rounded-2xl shadow-sm hover:shadow-md transition-shadow h-full border-t-4 border-t-nzx-gold">
+              <div className="text-nzx-green-mid text-4xl mb-4">💡</div>
+              <h3 className="font-heading text-2xl text-nzx-dark mb-4">INNOVATION AT THE CORE</h3>
+              <p className="font-body text-nzx-mid leading-relaxed text-justify">
+                Innovation is the heartbeat of SAKASH AGRO TECH PVT. LTD. Our team of agronomists, chemists, and experts collaborate tirelessly to craft state-of-the-art crop nutrition solutions. Through cutting-edge research and technology, we formulate products that amplify plant health, elevate yields, and promote sustainable farming practices.
+              </p>
+            </div>
+          </AnimatedSection>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
-          {[
-            { t: '100% Purity', d: 'We source only premium grade raw materials without harmful bulk fillers, ensuring maximum impact.', i: '✨' },
-            { t: 'Root Level Design', d: 'Engineered specifically for Indian soil profiles, addressing deficiencies at the core.', i: '🌱' },
-            { t: 'Cost Effective', d: 'Optimum concentrations mean you use less product for a better result, saving input costs.', i: '💰' },
-            { t: 'Expert Guidance', d: 'Our agronomists provide dedicated support, helping you use the right product at the right time.', i: '👨‍🌾' },
-            { t: 'High Solubility', d: 'Superior formulas guarantee quicker absorption without clogging your drip irrigation systems.', i: '💧' },
-            { t: 'Strict QA/QC', d: 'Every batch endures rigorous laboratory testing before making it to your field.', i: '🔬' }
-          ].map((card, idx) => (
-            <AnimatedSection key={card.t} delay={idx * 0.1}>
-              <div className="bg-white border text-center p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                <div className="text-nzx-green-mid text-4xl mb-4">{card.i}</div>
-                <h4 className="font-heading text-xl text-nzx-dark mb-3">{card.t}</h4>
-                <p className="font-body text-nzx-mid text-sm leading-relaxed">{card.d}</p>
-              </div>
-            </AnimatedSection>
-          ))}
+          <AnimatedSection delay={0.2}>
+            <div className="bg-white border text-left p-10 rounded-2xl shadow-sm hover:shadow-md transition-shadow h-full border-t-4 border-t-nzx-gold">
+              <div className="text-nzx-green-mid text-4xl mb-4">🎯</div>
+              <h3 className="font-heading text-2xl text-nzx-dark mb-4">PRECISION AND PERFORMANCE</h3>
+              <p className="font-body text-nzx-mid leading-relaxed text-justify">
+                Our commitment to precision extends to every aspect of our offerings. We understand that each plant's needs are unique, and that's why our solutions are meticulously tailored to optimize growth at every stage. Whether it's enhancing nutrient uptake or unlocking the potential of plant through unique foliar solutions, our products deliver remarkable results.
+              </p>
+            </div>
+          </AnimatedSection>
+
+          <AnimatedSection delay={0.3}>
+            <div className="bg-white border text-left p-10 rounded-2xl shadow-sm hover:shadow-md transition-shadow h-full border-t-4 border-t-nzx-gold">
+              <div className="text-nzx-green-mid text-4xl mb-4">🌱</div>
+              <h3 className="font-heading text-2xl text-nzx-dark mb-4">CULTIVATING SUSTAINABILITY</h3>
+              <p className="font-body text-nzx-mid leading-relaxed text-justify">
+                SAKASH AGRO TECH PVT. LTD. is more than a manufacturer; we are stewards of the environment. Our focus on sustainability guides our every decision. By developing biostimulants, organic fertilizers, and micronutrients that nourish plants while minimizing ecological impact, we contribute to a healthier planet and a more resilient ecosystem.
+              </p>
+            </div>
+          </AnimatedSection>
+
+          <AnimatedSection delay={0.4}>
+            <div className="bg-white border text-left p-10 rounded-2xl shadow-sm hover:shadow-md transition-shadow h-full border-t-4 border-t-nzx-gold">
+              <div className="text-nzx-green-mid text-4xl mb-4">🤝</div>
+              <h3 className="font-heading text-2xl text-nzx-dark mb-4">EMPOWERING GROWERS</h3>
+              <p className="font-body text-nzx-mid leading-relaxed text-justify">
+                We believe that knowledge is the key to progress. Our team is dedicated to empowering farmers with the information they need to make informed choices. Through personalized guidance and expert support, we ensure that every grower reaps the maximum benefits from our solutions.
+              </p>
+            </div>
+          </AnimatedSection>
+
         </div>
       </section>
 
-      {/* Comparison Table */}
-      <section className="py-24 bg-nzx-green-light overflow-hidden">
+      {/* Conclusion Section */}
+      <section className="py-20 bg-nzx-green-light">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <SectionHeader label="Comparison" title="Nutrizenix vs Generic Brands" />
-
-          <AnimatedSection delay={0.2} className="mt-12 bg-white rounded-xl overflow-hidden shadow-md">
-            <div className="grid grid-cols-3 bg-nzx-green text-white font-body font-semibold p-4">
-              <div className="col-span-1 text-left">Feature</div>
-              <div className="col-span-1 text-center bg-nzx-green-light text-nzx-green rounded p-1 mx-2">Nutrizenix</div>
-              <div className="col-span-1 text-center">Generic Brands</div>
-            </div>
-            {[
-              { f: 'Crop-Specific Formulations', n: true, g: false },
-              { f: 'Solubility Rate', n: 'High (100%)', g: 'Moderate/Low' },
-              { f: 'Agronomic Field Staff Support', n: true, g: false },
-              { f: 'Zero Heavy Metal Toxins', n: true, g: false },
-              { f: 'Micro-nutrient Consistency', n: 'Guaranteed', g: 'Variable' }
-            ].map((row, idx) => (
-              <div key={idx} className="grid grid-cols-3 border-b py-4 font-body text-sm">
-                <div className="col-span-1 text-left px-4 text-nzx-dark font-medium">{row.f}</div>
-                <div className="col-span-1 text-center font-bold text-nzx-green">
-                  {typeof row.n === 'boolean' ? (row.n ? '✔' : '✖') : row.n}
-                </div>
-                <div className="col-span-1 text-center text-red-500 font-bold">
-                  {typeof row.g === 'boolean' ? (row.g ? <span className="text-nzx-green">✔</span> : '✖') : <span className="font-normal text-nzx-mid">{row.g}</span>}
-                </div>
-              </div>
-            ))}
+          <AnimatedSection>
+            <h2 className="font-heading text-3xl md:text-4xl text-nzx-green mb-6">CULTIVATING EXCELLENCE, GROWING FUTURE</h2>
+            <div className="w-24 h-1 bg-nzx-gold mx-auto mb-8"></div>
+            <p className="font-body text-nzx-dark text-lg leading-relaxed">
+              <strong>SAKASH AGRO TECH PVT. LTD.</strong> is a symbol of dedication, innovation, and progress. As we continue to push the boundaries of agricultural science, we envision a future where sustainable farming practices yield bountiful harvests, thriving ecosystems, and prosperous communities.
+            </p>
           </AnimatedSection>
         </div>
       </section>
