@@ -2,9 +2,9 @@ import { PageTransition } from '../components/PageTransition';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { AnimatedSection } from '../components/AnimatedSection';
-import { SectionHeader } from '../components/SectionHeader';
-import { ProductCard } from '../components/ProductCard';
+import { AnimatedSection } from '../components/AnimatedSection.tsx';
+import { SectionHeader } from '../components/SectionHeader.tsx';
+import { ProductCard } from '../components/ProductCard.tsx';
 
 const Home = () => {
   const featuredProducts = [

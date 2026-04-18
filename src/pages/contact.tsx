@@ -82,15 +82,15 @@ const Contact = () => {
                 <div className="space-y-4 font-body text-nzx-mid text-sm">
                   <div className="flex gap-4">
                     <span className="text-nzx-gold">📍</span>
-                    <p className="text-nzx-dark">Global Business Park, Plot No 2,<br/>Industrial Area, Mumbai 400001,<br/>Maharashtra, India</p>
+                    <a href=" https://www.google.com/maps/search/?api=1&query=SAKASH+AGRO+TECH+PVT+LTD,+Site+No+25,+Survey+No+121,+Yelachaguppe+Village,+Gridpalya,+Gokula+Road,+Tavarekere+Hobli,+Bengaluru,+Karnataka+562130" target="_blank" className="text-nzx-dark hover:text-nzx-green transition-colors">SAKASH AGRO TECH PVT. LTD.,<br/>Site No.25, Survey No.121,<br/>Yelachaguppe Village,<br/>Gridpalya,Gokula Road,<br/>Tavarekere Hobli,<br/>Bengaluru Urban -562130,<br/>Karnataka,India</a>
                   </div>
                   <div className="flex gap-4">
                     <span className="text-nzx-gold">📞</span>
-                    <p className="text-nzx-dark">+91 1800 123 4567<br/><span className="text-gray-500 text-xs">Mon-Sat, 9AM to 6PM</span></p>
+                    <a href="tel:+918088773868" className="text-nzx-dark hover:text-nzx-green transition-colors">+91 8088773868<br/><span className="text-gray-500 text-xs">Mon-Sat, 9AM to 6PM</span></a>
                   </div>
                   <div className="flex gap-4">
                     <span className="text-nzx-gold">✉️</span>
-                    <p className="text-nzx-dark">support@nutrizenix.com</p>
+                    <a href="mailto:sakashagrotech@gmail.com" className="text-nzx-dark hover:text-nzx-green transition-colors">sakashagrotech@gmail.com</a>
                   </div>
                 </div>
               </div>
