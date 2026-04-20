@@ -8,8 +8,19 @@ const productData: ProductData = {
   category: "Boron",
   tagline: "Precision boron nutrition for Indian crops",
   oneLiner: "Soluble boron formulation for correcting deficiencies across a wide range of crops.",
-  description: "Nutrizenix Boronplus is a premium boron designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Improves pollination and fruit set","Enhances sugar translocation","Reduces hollow heart in root vegetables","Effective at low application rates"],
+  description: "Boronplus is a high-potency micronutrient fertilizer featuring a concentrated 20% boron formulation. Composed of Disodium Octaborate Tetrahydrate, it is designed for foliar application. The product rapidly absorbs through foliage to correct boron deficiencies and supports plant structural integrity and reproductive success.",
+  benefits: [
+    "Supports proper development of roots and shoots.",
+    "Improves seed germination and metabolic processes.",
+    "Enhances flowering, tillering, and fruit formation.",
+    "Improves pollination and fruit set.",
+    "Effective across field crops, horticulture, and vegetables."
+  ],
+  dosage: [
+    "Suitable for field crops (paddy, maize, sugarcane, cotton).",
+    "Effective for horticulture (fruits, plantation crops) and vegetables (potato, tomato)."
+  ],
+  availablePacking: ["100g", "250g", "500g", "1 Kg"],
   image: "/src/assets/products/boronplus.jpg",
   relatedIds: ["calbon", "calon", "citron"]
 };

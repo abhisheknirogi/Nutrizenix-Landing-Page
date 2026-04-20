@@ -8,8 +8,19 @@ const productData: ProductData = {
   category: "Citrus Nutrition",
   tagline: "Specialized micronutrient blend for citrus crops",
   oneLiner: "Balanced micronutrient mix designed to meet the unique nutritional demands of citrus orchards.",
-  description: "Nutrizenix Citron is a premium citrus nutrition designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Corrects nutrient deficiency quickly","Suitable for foliar and soil application","Compatible with most fertilizer schedules","Improves crop quality and marketable yield"],
+  description: "Citron+ is an essential micronutrient fertilizer mixture specifically recommended for citrus crops. It is 100% water-soluble and designed for foliar spray application to ensure rapid nutrient delivery.",
+  benefits: [
+    "Highly soluble formula ensures efficient nutrient absorption by leaves.",
+    "Improves plant utilization of major nutrients through synergy.",
+    "Acts as a catalytic agent in enzymatic functions for vigorous growth.",
+    "Boosts plant immunity against adverse conditions.",
+    "Increases yield and improves quality of citrus produce."
+  ],
+  dosage: [
+    "Use 2–3 ml per 1 liter of water.",
+    "Dosage depends on crop age and growth stage."
+  ],
+  availablePacking: ["250ml", "500ml", "1000ml", "5 Ltr."],
   image: "/src/assets/products/citron.jpg",
   relatedIds: ["dymond-plus-33", "dymond-12", "dymond-21"]
 };

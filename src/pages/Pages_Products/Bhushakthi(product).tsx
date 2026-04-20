@@ -8,8 +8,19 @@ const productData: ProductData = {
   category: "Soil Health",
   tagline: "Revitalize soil. Restore yield.",
   oneLiner: "Restores depleted soil vitality and improves nutrient availability for long-term productivity.",
-  description: "Nutrizenix Bhushakthi is a premium soil health designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Improves cation exchange capacity","Enhances water-holding capacity","Stimulates beneficial microbial activity","Reduces nutrient leaching losses"],
+  description: "Nutri Bhushakti is a specialized micronutrient fertilizer mixture formulated for soil application. It provides a comprehensive blend of essential micronutrients with traces of macro nutrients, supporting crops through every lifecycle phase from growth to full development.",
+  benefits: [
+    "Improves photosynthesis for healthier, greener plant appearance.",
+    "Corrects micronutrient deficiencies across all crop types.",
+    "Enhances nutrient uptake from soil already available to plants.",
+    "Contains balanced macro and micronutrient proportions.",
+    "Boosts natural disease resistance in all crops."
+  ],
+  dosage: [
+    "Per Acre: 8–10 Kg.",
+    "Per Plant: 125–150 gm."
+  ],
+  availablePacking: ["5 KG", "10 KG"],
   image: "/src/assets/products/bhushakthi.jpg",
   relatedIds: ["boron-plus", "boronplus", "calbon"]
 };

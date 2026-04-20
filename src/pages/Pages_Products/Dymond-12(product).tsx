@@ -8,8 +8,17 @@ const productData: ProductData = {
   category: "Nitrogen",
   tagline: "12% nitrogen formula for balanced growth",
   oneLiner: "Steady-release nitrogen source that supports uniform canopy development and leaf colour.",
-  description: "Nutrizenix Dymond-12 is a premium nitrogen designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Corrects nutrient deficiency quickly","Suitable for foliar and soil application","Compatible with most fertilizer schedules","Improves crop quality and marketable yield"],
+  description: "Dymond-12 is a straight micronutrient fertilizer containing 12% chelated zinc (Zn-EDTA). It is designed for foliar application to correct zinc deficiencies and improve crop performance.",
+  benefits: [
+    "Addresses zinc deficiency in soil, which causes gradually decreasing crop yields.",
+    "Improves both yield and quality of crops in production.",
+    "Uses chelated formula (Zn-EDTA 12%) for better stability and plant absorption."
+  ],
+  dosage: [
+    "Dissolve 2 gms per 1 liter of water or use 250 gms per acre.",
+    "Apply 2 sprays at 20-day intervals for better yield."
+  ],
+  availablePacking: ["100gm", "250gm", "500gm"],
   image: "/src/assets/products/dymond-12.jpg",
   relatedIds: ["dymond-21", "greenplus", "hi-power"]
 };

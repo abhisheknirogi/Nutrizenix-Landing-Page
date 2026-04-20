@@ -8,8 +8,18 @@ const productData: ProductData = {
   category: "Orchard Nutrition",
   tagline: "Specialized nutrition for mango orchards",
   oneLiner: "Precision micronutrient formula developed specifically for mango crop health and fruit quality.",
-  description: "Nutrizenix Aam is a premium orchard nutrition designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Corrects nutrient deficiency quickly","Suitable for foliar and soil application","Compatible with most fertilizer schedules","Improves crop quality and marketable yield"],
+  description: "Aam+ is an essential Micronutrient Fertilizer Mixture specifically formulated for mango trees. It is 100% water-soluble and designed for application via foliar spray.",
+  benefits: [
+    "High solubility ensures nutrients are rapidly absorbed through the leaves.",
+    "Helps the plant better utilize other major nutrients via nutrient synergy.",
+    "Acts as a catalytic agent in enzymatic functions to support strong, healthy growth.",
+    "Improves harvest quality and yield while boosting immunity against adverse conditions."
+  ],
+  dosage: [
+    "Use 2–3 ml per 1 liter of water.",
+    "Note: Exact dosage may vary depending on the age and growth stage of the mango crop."
+  ],
+  availablePacking: ["250ml", "500ml", "1000ml", "5 Ltr."],
   image: "/src/assets/products/aam.jpg",
   relatedIds: ["amigrow", "banana", "bhushakthi"]
 };

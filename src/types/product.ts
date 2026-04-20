@@ -6,6 +6,10 @@ export interface ProductData {
   oneLiner: string;
   description: string;
   benefits: string[];
+  dosage?: string[];
+  recommendedCrops?: string[];
+  availablePacking?: string[];
+  composition?: string[];
   image: string;
   relatedIds: string[];
 }

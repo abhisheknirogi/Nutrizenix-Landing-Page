@@ -8,8 +8,19 @@ const productData: ProductData = {
   category: "High-N Complex",
   tagline: "High-efficiency 21% nutrient complex",
   oneLiner: "Concentrated nutrient formula delivering rapid green-up and accelerated vegetative growth.",
-  description: "Nutrizenix Dymond-21 is a premium high-n complex designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Corrects nutrient deficiency quickly","Suitable for foliar and soil application","Compatible with most fertilizer schedules","Improves crop quality and marketable yield"],
+  description: "Dymond-21 is a high-efficiency micronutrient fertilizer with 21% zinc concentration. It can be used for soil application during sowing or transplanting, or as a foliar spray. It serves as a vital catalyst for enzyme systems and auxin production, supporting protein synthesis and disease resistance.",
+  benefits: [
+    "Promotes growth hormones and starch formation.",
+    "Facilitates seed maturation and development.",
+    "Essential for enzyme systems and auxins involved in protein synthesis.",
+    "Improves natural disease resistance in plants."
+  ],
+  dosage: [
+    "Soil application: 5.0 kg per acre at sowing or transplanting.",
+    "Horticulture crops: 50–75 g per tree/palm, once every six months.",
+    "Foliar spray: Dissolve 3.0 g per liter of water and spray on leaf surfaces."
+  ],
+  availablePacking: ["1 Kg"],
   image: "/src/assets/products/dymond-21.jpg",
   relatedIds: ["greenplus", "hi-power", "high-zinc"]
 };

@@ -8,8 +8,17 @@ const productData: ProductData = {
   category: "NPK Complex",
   tagline: "Triple-action NPK boost for maximum yield",
   oneLiner: "High-efficiency water-soluble NPK complex for rapid uptake and vigorous crop growth.",
-  description: "Nutrizenix Dymond+33 is a premium npk complex designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Corrects nutrient deficiency quickly","Suitable for foliar and soil application","Compatible with most fertilizer schedules","Improves crop quality and marketable yield"],
+  description: "DYMOND +33 is a high-purity Zinc Monohydrate (33%) fertilizer formulated for Foliar Application. It is designed to quickly correct zinc deficiencies across a wide range of agricultural and horticultural crops.",
+  benefits: [
+    "Disease Control: Specifically controls yellowing (Khaira) disease in paddy.",
+    "Deficiency Management: Controls zinc deficiency in Maize, Sugarcane, and all Agri/Horticultural crops.",
+    "Yield & Quality: Boosts the overall yield and improves the quality of the crop.",
+    "Purity: Provides quality-assured zinc with 100% purity.",
+    "Long-term Health: Applied crops will stay protected and never show zinc deficiency."
+  ],
+  dosage: ["Apply 2–3 gms per liter of water as a foliar application."],
+  recommendedCrops: ["Paddy", "Maize", "Sugarcane", "Cotton", "Fruits", "Vegetables (Potato, Tomato)", "Horticulture", "Plantation crops"],
+  availablePacking: ["250g", "500g", "1 KG"],
   image: "/src/assets/products/dymond-plus-33.jpg",
   relatedIds: ["dymond-12", "dymond-21", "greenplus"]
 };

@@ -8,7 +8,7 @@ import { ProductCard } from './ProductCard';
 import { productsListing } from '../data/products-listing';
 import type { ProductData } from '../types/product';
 
-const OriginalTemplate = ({ id, name, tagline, description, benefits, relatedIds }: ProductData) => {
+const OriginalTemplate = ({ id, name, tagline, description, benefits, dosage, recommendedCrops, availablePacking, composition, relatedIds }: ProductData) => {
   const applicationRows = [
     { crop: 'Cereals & Pulses', method: 'Foliar Spray', dosage: '2-3 ml/Litre of water' },
     { crop: 'Vegetables', method: 'Drip Irrigation', dosage: '1-1.5 L/Acre' },
@@ -52,6 +52,57 @@ const OriginalTemplate = ({ id, name, tagline, description, benefits, relatedIds
                 ))}
               </ul>
             </div>
+            {dosage && (
+              <div className="mb-10">
+                <h3 className="text-nzx-gold font-semibold tracking-widest text-xs uppercase mb-5">Recommended Dosage</h3>
+                <ul className="space-y-4">
+                  {dosage.map((dose, idx) => (
+                    <li key={idx} className="flex items-start text-nzx-dark font-body">
+                      <span className="text-nzx-green font-bold mr-3 mt-0.5">•</span>
+                      <span>{dose}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {recommendedCrops && (
+              <div className="mb-10">
+                <h3 className="text-nzx-gold font-semibold tracking-widest text-xs uppercase mb-5">Recommended Crops</h3>
+                <ul className="space-y-4">
+                  {recommendedCrops.map((crop, idx) => (
+                    <li key={idx} className="flex items-start text-nzx-dark font-body">
+                      <span className="text-nzx-green font-bold mr-3 mt-0.5">•</span>
+                      <span>{crop}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {composition && (
+              <div className="mb-10">
+                <h3 className="text-nzx-gold font-semibold tracking-widest text-xs uppercase mb-5">Composition</h3>
+                <ul className="space-y-4">
+                  {composition.map((comp, idx) => (
+                    <li key={idx} className="flex items-start text-nzx-dark font-body">
+                      <span className="text-nzx-green font-bold mr-3 mt-0.5">•</span>
+                      <span>{comp}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {availablePacking && (
+              <div className="mb-10">
+                <h3 className="text-nzx-gold font-semibold tracking-widest text-xs uppercase mb-5">Available Packing</h3>
+                <div className="flex flex-wrap gap-3">
+                  {availablePacking.map((size, idx) => (
+                    <span key={idx} className="bg-nzx-green-light text-nzx-green font-body font-medium px-4 py-2 rounded-lg border border-nzx-green/20">
+                      {size}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
             <div className="flex flex-wrap items-center gap-6 mt-2">
               <motion.button whileTap={{ scale: 0.97 }} className="bg-nzx-gold hover:bg-yellow-600 text-white font-body font-semibold px-8 py-3 rounded-lg shadow-md transition-colors" onClick={() => window.location.href = '/contact'}>Enquire Now</motion.button>
               <Link to="/products" className="text-nzx-green hover:text-nzx-green-mid hover:underline font-body font-medium flex items-center gap-2 transition-colors"><span>←</span> Back to Products</Link>

@@ -8,8 +8,19 @@ const productData: ProductData = {
   category: "Calcium + Boron",
   tagline: "Calcium and boron synergy for stronger crops",
   oneLiner: "Synergistic blend of calcium and boron for stronger cell walls and better fruit set.",
-  description: "Nutrizenix Calbon is a premium calcium + boron designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Strengthens cell walls and reduces cracking","Prevents blossom end rot and tip burn","Improves post-harvest shelf life","Works best with boron for maximum absorption"],
+  description: "Calbon is a micronutrient fertilizer designed for foliar application. It features a specialized composition of calcium (18%) and boron (5%) to support critical development stages in fruits and vegetables.",
+  benefits: [
+    "Ensures flower and fruit set at development levels and reduces fruit and bloom abortion.",
+    "Strengthens cell walls, making plants more disease-resistant.",
+    "Reduces moisture stress, prevents fruit rot, and stops fruit cracking.",
+    "Improves shelf life of vegetables and fruits for better profitability."
+  ],
+  dosage: [
+    "Dissolve 2–3 gms per 1 liter of water.",
+    "Second spray recommended at 15-day intervals.",
+    "Suitable for tomato, apple, watermelon, pomegranate, wheat, mustard, and all vegetables."
+  ],
+  availablePacking: ["100g", "250g", "500g", "1 Kg"],
   image: "/src/assets/products/calbon.jpg",
   relatedIds: ["calon", "citron", "dymond-plus-33"]
 };

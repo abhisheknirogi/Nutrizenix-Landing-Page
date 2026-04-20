@@ -8,8 +8,19 @@ const productData: ProductData = {
   category: "Crop-Specific",
   tagline: "Targeted nutrition for high-yield banana cultivation",
   oneLiner: "Tailored nutrient blend that maximizes bunch weight and fruit quality in banana crops.",
-  description: "Nutrizenix Banana is a premium crop-specific designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Corrects nutrient deficiency quickly","Suitable for foliar and soil application","Compatible with most fertilizer schedules","Improves crop quality and marketable yield"],
+  description: "Banana+ is an essential micronutrient fertilizer mixture tailored for banana plants. It is 100% water-soluble and designed for foliar spray application.",
+  benefits: [
+    "Highly soluble formula ensures leaves efficiently absorb essential nutrients.",
+    "Helps the plant better utilize other major nutrients for improved nutrient efficiency.",
+    "Boosts natural immunity against adverse environmental conditions.",
+    "Acts as a catalytic agent in enzymatic processes to support strong and healthy growth.",
+    "Contributes to higher harvest quality and increased yield."
+  ],
+  dosage: [
+    "Use 2–3 ml per 1 liter of water.",
+    "Note: Exact dosage may vary depending on crop age and growth stage."
+  ],
+  availablePacking: ["250ml", "500ml", "1000ml", "5 Ltr."],
   image: "/src/assets/products/banana.jpg",
   relatedIds: ["bhushakthi", "boron-plus", "boronplus"]
 };
