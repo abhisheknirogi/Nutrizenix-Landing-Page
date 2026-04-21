@@ -5,11 +5,21 @@ import { ProductPageTemplate } from '../../components/ProductPageTemplate';
 const productData: ProductData = {
   id: "vajra",
   name: "Vajra",
-  category: "Root & Strength",
-  tagline: "Strong roots. Strong yield. Every season.",
-  oneLiner: "Promotes robust root architecture and stem strength for better nutrient and water absorption.",
-  description: "Nutrizenix Vajra is a premium root & strength designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Stimulates root development","Improves nutrient uptake efficiency","Enhances resistance to abiotic stress","Increases dry matter accumulation"],
+  category: "Micronutrient Fertilizer Mixture for Vegetable Crops",
+  tagline: "The impenetrable shield for high-yield vegetables",
+  oneLiner: "A 100% water-soluble micronutrient powerhouse designed to boost immunity and quality in vegetable crops.",
+  description: "Vajra is an essential micronutrient mixture product specifically formulated for spray application on vegetable crops. Being 100% water-soluble, it facilitates efficient and rapid absorption of nutrients through the foliage, ensuring that your vegetables receive precise nourishment at critical growth stages.",
+  benefits: [
+    "Nutrient Efficiency: Helps the plant achieve better utilization of major nutrients.",
+    "Immunity Support: Increases the immunity power of plants to protect them against adverse environmental conditions.",
+    "Growth Catalyst: Participates in enzymatic functions and acts as a catalytic agent to stimulate vigorous growth.",
+    "Premium Output: Significantly increases both the total yield and the market quality of the farm produce."
+  ],
+  dosages: [
+    "Rate: Use 2–3 ml of Vajra per 1 litre of water.",
+    "Guidance: Adjust dosage depending upon the specific crop age and growth stages"
+  ],
+  packing: ["Available in 250ml, 500ml, 1000ml, and 5 Ltr.."],
   image: "/src/assets/products/vajra.jpg",
   relatedIds: ["wetgrow", "sampurna", "sampurna-4g"]
 };

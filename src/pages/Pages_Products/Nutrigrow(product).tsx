@@ -5,11 +5,21 @@ import { ProductPageTemplate } from '../../components/ProductPageTemplate';
 const productData: ProductData = {
   id: "nutrigrow",
   name: "Nutrigrow",
-  category: "Growth Stages",
-  tagline: "Growth-stage nutrition from seedling to canopy",
-  oneLiner: "Stage-matched nutrient delivery system supporting crops from germination through full canopy.",
-  description: "Nutrizenix Nutrigrow is a premium growth stages designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Stimulates root development","Improves nutrient uptake efficiency","Enhances resistance to abiotic stress","Increases dry matter accumulation"],
+  category: "Micronutrient Fertilizer Mixture (Foliar Application)",
+  tagline: "Correcting deficiencies for qualitative and quantitative yields",
+  oneLiner: "A concentrated micronutrient formula that enhances photosynthesis and nutrient uptake from the soil",
+  description: "NUTRI GROW is a specialized micronutrient fertilizer mixture developed for foliar application. It is engineered to provide essential trace elements in a balanced proportion to ensure crops reach their full genetic potential in both quality and quantity",
+  benefits: [
+    "Photosynthesis Boost: Significantly improves the photosynthesis process, leading to entire plants becoming a healthy, vibrant green.",
+    "Uptake Efficiency: Improves and increases the uptake of other essential nutrients already available in the soil.",
+    "Deficiency Correction: Helps crops overcome common and complex micronutrient deficiencies.",
+    "High Efficiency: Requires only a small quantity to produce significant qualitative and quantitative increases in yield."
+  ],
+  dosages: [
+    "Rate: 500ml of NUTRI GROW in 200 liters of water per acre.",
+    "Frequency: Repeated applications at 15–20 day intervals will keep the crop healthy"
+  ],
+  packing: ["Available in 100ml, 250ml, 500ml, 1000ml, 5 Ltr, and 20 Ltr."],
   image: "/src/assets/products/nutrigrow.jpg",
   relatedIds: ["nutrimag", "nutrimix", "pride-x"]
 };

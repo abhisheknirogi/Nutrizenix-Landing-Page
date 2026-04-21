@@ -5,11 +5,21 @@ import { ProductPageTemplate } from '../../components/ProductPageTemplate';
 const productData: ProductData = {
   id: "s-400",
   name: "S-400",
-  category: "Sulphur",
-  tagline: "Sulphur-400 formula for oilseed and pulse crops",
-  oneLiner: "High-sulphur formulation addressing sulphur deficiency in oilseed, pulse, and allium crops.",
-  description: "Nutrizenix S-400 is a premium sulphur designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Corrects nutrient deficiency quickly","Suitable for foliar and soil application","Compatible with most fertilizer schedules","Improves crop quality and marketable yield"],
+  category: "Biostimulant (Drenching / Soil Application)",
+  tagline: "High-power soil conditioning for robust roots",
+  oneLiner: "A concentrated 51% Humic Acid granular formula designed to revitalize soil structure and biomass",
+  description: "S-400 is a premium granular biostimulant containing 51% Humic Acid. It is specifically engineered for drenching and soil application to improve the physical and biological properties of the soil, ensuring a more resilient ecosystem for crops like Paddy.",
+  benefits: [
+    "Soil Structure Improvement: Increases air availability around the root zone and enhances water-holding and cation exchange capacity",
+    "Root & Tiller Promotion: Actively promotes root development and tillers in Paddy and other various crops",
+    "Nutrient Uptake: Increases the number of white and feeding roots for better absorption while reducing nutrient losses.",
+    "Biological Stimulation: Increases the microbiological activity of the soil and stimulates plant biomass production."
+  ],
+  dosages: [
+    "Rate: Two soil applications at 1.5kg per hectare.",
+    "Method: Suitable for drenching or direct soil application."
+  ],
+  packing: ["Available in 1 kg."],
   image: "/src/assets/products/s-400.jpg",
   relatedIds: ["superplus", "vajra", "wetgrow"]
 };

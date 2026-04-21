@@ -5,11 +5,21 @@ import { ProductPageTemplate } from '../../components/ProductPageTemplate';
 const productData: ProductData = {
   id: "wetgrow",
   name: "Wetgrow",
-  category: "Wetland Crops",
-  tagline: "Optimized nutrition for paddy and wetland crops",
-  oneLiner: "Micronutrient blend specifically designed for flooded and wetland crop cultivation conditions.",
-  description: "Nutrizenix Wetgrow is a premium wetland crops designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Corrects nutrient deficiency quickly","Suitable for foliar and soil application","Compatible with most fertilizer schedules","Improves crop quality and marketable yield"],
+  category: "Agricultural Spray Adjuvant (Sticker, Spreader, Activator)",
+  tagline:"Maximize every drop of your agricultural spray",
+  oneLiner: "A high-performance adjuvant designed to improve spray coverage, absorption, and equipment hygiene.",
+  description: "WET-GROW is a specialized agricultural spray adjuvant used for all crops and plants. It functions as a powerful sticker, spreader, and activator that ensures chemicals and nutrients adhere firmly to leaf surfaces for maximum effectiveness.",
+  benefits: [
+    "Surface Adhesion: Helps spray solutions firmly stick to the leaf surface, preventing runoff.",
+    "Enhanced Coverage: Increases the spray coverage area on leaf surfaces, leading to maximum chemical and nutrient absorption.",
+    "Performance Booster: Enhances the performance of pesticides, plant nutrients, and growth promoters, effectively increasing crop yield.",
+    "Equipment Maintenance: Acts as a cost-effective cleaning agent for spray equipment and agricultural machinery."
+  ],
+  dosages: [
+    "Rate: Mix 3–4 ml of Wet-Grow per 1 liter of water.",
+    "Method: Spray on both sides of the leaves for optimal coverage."
+  ],
+  packing: ["Available in 100ml, 250ml, 500ml, 1000ml, and 5 Ltr."],
   image: "/src/assets/products/wetgrow.jpg",
   relatedIds: ["sampurna", "sampurna-4g", "aam"]
 };

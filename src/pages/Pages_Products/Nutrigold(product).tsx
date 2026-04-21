@@ -5,11 +5,21 @@ import { ProductPageTemplate } from '../../components/ProductPageTemplate';
 const productData: ProductData = {
   id: "nutrigold",
   name: "Nutrigold",
-  category: "Premium Blend",
-  tagline: "Gold-standard micronutrient mix for premium yield",
-  oneLiner: "Premium chelated micronutrient blend for high-value crops demanding exceptional quality output.",
-  description: "Nutrizenix Nutrigold is a premium premium blend designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Corrects nutrient deficiency quickly","Suitable for foliar and soil application","Compatible with most fertilizer schedules","Improves crop quality and marketable yield"],
+  category: "Bio-stimulant Product (Soil Application)",
+  tagline: "Revolutionizing soil health for sustainable growth",
+  oneLiner: "A premium mixture of Seaweed extract and Humic acid granules to improve soil structure and nutrient efficiency",
+  description: "Nutri Gold is a specialized bio-stimulant designed for soil application to improve the chemical, physical, and biological properties of the soil. It helps maintain the soil's critical Carbon-to-Nitrogen (C:N) ratio and significantly increases its water-holding capacity, ensuring a fertile environment for all agricultural crops.",
+  benefits: [
+    "Increased Nutrient Uptake: Enhances the amount of essential nutrients that plants can effectively absorb.",
+    "Root Development: Promotes robust root system development for stronger, more stable plants.",
+    "Improved Crop Yield: Helps increase the overall yield and quality of the harvest",
+    "Microbial Stimulation: Stimulates the activity of beneficial soil microorganisms"
+  ],
+  dosages: [
+    "Rate: 8–10 kg per 1 Acre.",
+    "Method: Soil application."
+  ],
+  packing: ["Available in 1 kg."],
   image: "/src/assets/products/nutrigold.jpg",
   relatedIds: ["nutrigrow", "nutrimag", "nutrimix"]
 };

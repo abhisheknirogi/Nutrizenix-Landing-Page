@@ -5,11 +5,22 @@ import { ProductPageTemplate } from '../../components/ProductPageTemplate';
 const productData: ProductData = {
   id: "superplus",
   name: "Superplus",
-  category: "Intensive Crop",
-  tagline: "Super-charged blend for intensive cultivation",
-  oneLiner: "High-density micronutrient mix for crops under intensive management and high-yield targets.",
-  description: "Nutrizenix Superplus is a premium intensive crop designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Corrects nutrient deficiency quickly","Suitable for foliar and soil application","Compatible with most fertilizer schedules","Improves crop quality and marketable yield"],
+  category: "",
+  category: "Micronutrient Fertilizer Mixture (Foliar Spray)",
+  tagline: "The catalytic boost for vigorous growth",
+  oneLiner: "A 100% water-soluble micronutrient mixture designed for efficient leaf absorption and enhanced immunity.",
+  description: "Super Plus is an essential micronutrient mixture product formulated for spray application. It is a 100% water-soluble fertilizer, which facilitates the efficient and rapid absorption of vital nutrients directly through the leaves.",
+  benefits: [
+    "Nutrient Utilization: Helps the plant achieve better utilization of major nutrients.",
+    "Immunity Boost: Increases the immunity power of plants, helping them withstand adverse environmental conditions.",
+    "Growth Catalyst: Takes part in enzymatic functions and acts as a catalytic agent to produce vigorous growth.",
+    "Yield & Quality: Helps to increase both the total yield and the overall quality of the farm produce."
+  ],
+  dosages: [
+    "Rate: Use 2–3 ml of Super Plus per 1 litre of water.",
+    "Factors: The exact dosage depends upon the specific crop age and growth stages."
+  ],
+  packing: ["Available in 100ml, 250ml, 500ml, 1000ml, and 5 Ltr."],
   image: "/src/assets/products/superplus.jpg",
   relatedIds: ["vajra", "wetgrow", "sampurna"]
 };

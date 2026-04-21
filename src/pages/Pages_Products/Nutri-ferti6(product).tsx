@@ -5,11 +5,21 @@ import { ProductPageTemplate } from '../../components/ProductPageTemplate';
 const productData: ProductData = {
   id: "nutri-ferti6",
   name: "Nutri-Ferti 6",
-  category: "Fertigation",
-  tagline: "Harvest-ready ripening and colour enhancement",
-  oneLiner: "Final-stage formula that improves fruit colour, Brix levels, and post-harvest shelf life.",
-  description: "Nutrizenix Nutri-Ferti 6 is a premium fertigation designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Optimized for drip and micro-irrigation","Fully water-soluble with no residue","Balanced N:P:K ratio for the growth stage","Safe for sensitive crops and soils"],
+  category: "100% Water Soluble Complex Fertilizer",
+  tagline: "The ultimate phosphorus boost for root and fruit",
+  oneLiner: "A high-concentration MAP fertilizer that accelerates root growth and prevents flower drop",
+  description: "Nutri-ferti 6 is a premium complex fertilizer containing Nitrogen and Phosphorus in an easily soluble and highly available form. It is engineered to improve both root and shoot growth, ensuring the overall health of the plant while maximizing yield quality and quantity.",
+  benefits: [
+    "Significantly improves root and shoot development for a stronger plant foundation.",
+    "Effectively reduces flower drop and increases successful fruit setting.",
+    "Improves the final yield in terms of both quality and quantity.",
+    "Provides nitrogen and phosphorus in a 100% water-soluble form for rapid uptake."
+  ],
+  dosages: [
+    "Foliar Spray: Dissolve 4 to 5 grams in one litre of water and spray on plants.",
+    "Fertigation: Use 1 to 3 kg per acre through drip or sprinkler irrigation systems."
+  ],
+  packing: ["Available in 1 kg."],
   image: "/src/assets/products/nutri-ferti6.jpg",
   relatedIds: ["nutrical", "nutrichill", "nutriferus-12"]
 };

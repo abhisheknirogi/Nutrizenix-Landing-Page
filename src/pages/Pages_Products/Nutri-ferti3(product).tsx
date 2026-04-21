@@ -5,11 +5,22 @@ import { ProductPageTemplate } from '../../components/ProductPageTemplate';
 const productData: ProductData = {
   id: "nutri-ferti3",
   name: "Nutri-Ferti 3",
-  category: "Fertigation",
-  tagline: "Mid-season nutrient balance for peak performance",
-  oneLiner: "Bridges the transition from vegetative to reproductive growth with balanced mid-season nutrition.",
-  description: "Nutrizenix Nutri-Ferti 3 is a premium fertigation designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Optimized for drip and micro-irrigation","Fully water-soluble with no residue","Balanced N:P:K ratio for the growth stage","Safe for sensitive crops and soils"],
+  category: "100% Water Soluble Complex Fertilizer",
+  tagline: "Enhance fruit quality and harvest maturity",
+  oneLiner: "A premium Potassium Sulphate (SOP) fertilizer that improves fruit size, color, and oil content",
+  description: "Nutri-ferti 3 is a specialized complex fertilizer providing 50% Potassium ($K_{2}O$) in a 100% water-soluble form. It is designed to be easily available to plants, providing both Potassium and Sulphur in soluble forms to enhance plant growth and maturity.",
+  benefits: [
+    "Assists in better absorption of both Potassium and Sulphur.",
+    "Improves fruit development, specifically increasing fruit size and enhancing color",
+    "Increases oil content in seeds.",
+    "Boosts overall yield in terms of both quality and quantity.",
+    "Supports plant growth and ensures timely maturity."
+  ],
+  dosages: [
+    "Foliar Spray: Dissolve 3 to 5 g per litre of water and spray on both surfaces of the leaves.",
+    "Fertigation: Apply 2 to 3 kg per acre through irrigation systems."
+  ],
+  packing: ["Available in 1 kg."],
   image: "/src/assets/products/nutri-ferti3.jpg",
   relatedIds: ["nutri-ferti4", "nutri-ferti5", "nutri-ferti6"]
 };

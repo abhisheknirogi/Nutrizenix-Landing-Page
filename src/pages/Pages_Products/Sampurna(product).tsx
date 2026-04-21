@@ -5,11 +5,20 @@ import { ProductPageTemplate } from '../../components/ProductPageTemplate';
 const productData: ProductData = {
   id: "sampurna",
   name: "Sampurna",
-  category: "Complete Nutrition",
-  tagline: "Complete crop nutrition in every drop",
-  oneLiner: "A comprehensive macro and micronutrient blend for all crop types and soils.",
-  description: "Nutrizenix Sampurna is a premium complete nutrition designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
-  benefits: ["Corrects nutrient deficiency quickly","Suitable for foliar and soil application","Compatible with most fertilizer schedules","Improves crop quality and marketable yield"],
+  category: "Biostimulant Product (Foliar Application)",
+  tagline: "The natural vitality of the sea for your crops.",
+  oneLiner: "A premium organic seaweed extract (Ascophyllum nodosum) to enhance photosynthesis and plant immunity.",
+  description: "Nutrizenix SAMPURNA is a high-performance organic biostimulant containing a 20% liquid concentration of Ascophyllum nodosum (Seaweed Extract). It is specifically formulated for foliar application to stimulate natural growth hormones and improve the overall physiological health of the plant.",
+  benefits: [
+    "Photosynthesis Enhancement: Directly improves the photosynthesis process in plants, causing the entire plant to become a healthy, deep greenish color.",
+    "Micronutrient Support: Specifically helps plants overcome micronutrient deficiencies across all crop varieties.",
+    "Stress Management: Assists in developing natural resistance against pests, diseases, and abiotic (environmental) stresses."
+  ],
+  dosages: [
+    "Rate: Rate: Mix 2–3 ml of SAMPURNA per 1 liter of water.",
+    "Frequency: Repeated applications at 15–20 day intervals will ensure healthy crop growth."
+  ],
+  packing: ["Available in 100ml, 250ml, 500ml, 1000ml, and 5 Ltr."],
   image: "/src/assets/products/sampurna.jpg",
   relatedIds: ["sampurna-4g", "aam", "amigrow"]
 };
