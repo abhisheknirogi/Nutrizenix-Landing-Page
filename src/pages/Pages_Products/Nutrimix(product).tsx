@@ -15,11 +15,11 @@ const productData: ProductData = {
     "Photosynthesis Optimization: Boosts the photosynthesis process, resulting in a healthy, deep green color across the entire plant.",
     "Reproductive Support: Increases tillering, flowering, and successful fruit/grain setting."
   ],
-  dosages: [
+  dosage: [
     "Rate: Dissolve 4–5g of NUTRIMIX in 1 liter of water.",
     "Frequency: For optimal results, 2–3 sprays are recommended throughout the cropping season."
   ],
-  packing: ["Available in 500g and 1 kg."],
+  availablePacking: ["500g", "1 kg"],
   image: "/src/assets/products/nutrimix.jpg",
   relatedIds: ["pride-x", "s-400", "superplus"]
 };

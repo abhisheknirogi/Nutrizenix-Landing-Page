@@ -15,11 +15,11 @@ const productData: ProductData = {
     "Enhances drought resistance to keep plants resilient in adverse conditions",
     "Maintains plant health, keeping them visibly greener."
   ],
-  dosages: [
+  dosage: [
     "Foliar Spray: Dissolve 3.0 to 5.0 g per litre of water and spray on leaves.",
     "Fertigation: Apply 2 to 3 kg per acre through drip irrigation.",
   ],
-  packing: ["Available in 1 kg."],
+  availablePacking: ["1 kg"],
   image: "/src/assets/products/nutri-ferti.jpg",
   relatedIds: ["nutri-ferti2", "nutri-ferti3", "nutri-ferti4"]
 };

@@ -15,11 +15,11 @@ const productData: ProductData = {
     "Improved Crop Yield: Helps increase the overall yield and quality of the harvest",
     "Microbial Stimulation: Stimulates the activity of beneficial soil microorganisms"
   ],
-  dosages: [
+  dosage: [
     "Rate: 8–10 kg per 1 Acre.",
     "Method: Soil application."
   ],
-  packing: ["Available in 1 kg."],
+  availablePacking: ["1 kg"],
   image: "/src/assets/products/nutrigold.jpg",
   relatedIds: ["nutrigrow", "nutrimag", "nutrimix"]
 };

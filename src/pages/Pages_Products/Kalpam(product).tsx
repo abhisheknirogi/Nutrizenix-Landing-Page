@@ -15,12 +15,12 @@ const productData: ProductData = {
     "Develops natural resistance against pests, diseases, and abiotic stress.",
     "Maximizes nutrient uptake by promoting superior root system development."
   ],
-  dosages: [
+  dosage: [
     "Rate: 1kg per acre.",
     "Method: Foliar application using 180–200 liters of water.",
     "Frequency: Repeat every 15–20 days for sustained healthy growth."
   ],
-  packing: ["Available in 100g, 250g, 500g, and 1kg."],
+  availablePacking: ["100g", "250g", "500g", "1kg"],
   image: "/src/assets/products/kalpam.jpg",
   relatedIds: ["nutri-ferti", "nutri-ferti2", "nutri-ferti3"]
 };

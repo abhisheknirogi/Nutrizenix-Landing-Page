@@ -1,16 +1,15 @@
-import React from 'react';
+import type { ReactNode } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { fadeUp, staggerContainer } from '../utils/animations';
+import { fadeUp } from '../utils/animations';
 import { productsListing } from '../data/products-listing';
-import { ProductCard } from './ProductCard';
 
 interface ProductPageLayoutProps {
   productId: string;
-  children?: React.ReactNode;
+  children?: ReactNode;
 }
 
-export const ProductPageLayout: React.FC<ProductPageLayoutProps> = ({ productId, children }) => {
+export const ProductPageLayout = ({ productId, children }: ProductPageLayoutProps) => {
   const product = productsListing.find(p => p.id === productId);
 
   if (!product) return <div>Product Not Found</div>;

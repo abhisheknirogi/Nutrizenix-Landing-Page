@@ -1,5 +1,5 @@
 import { PageTransition } from './PageTransition';
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { AnimatedSection } from './AnimatedSection';
@@ -8,14 +8,14 @@ import { ProductCard } from './ProductCard';
 import { productsListing } from '../data/products-listing';
 import type { ProductData } from '../types/product';
 
-const OriginalTemplate = ({ id, name, tagline, description, benefits, dosage, recommendedCrops, availablePacking, composition, relatedIds }: ProductData) => {
+const OriginalTemplate = ({ id, name, image, tagline, description, benefits, dosage, recommendedCrops, availablePacking, composition, relatedIds }: ProductData) => {
   const applicationRows = [
     { crop: 'Cereals & Pulses', method: 'Foliar Spray', dosage: '2-3 ml/Litre of water' },
     { crop: 'Vegetables', method: 'Drip Irrigation', dosage: '1-1.5 L/Acre' },
     { crop: 'Fruit Orchards', method: 'Soil Application', dosage: 'As per soil test' },
   ];
 
-  const relatedProducts = relatedIds?.map(rId => productsListing.find(p => p.id === rId)).filter(Boolean) ?? [];
+  const relatedProducts = (relatedIds?.map(rId => productsListing.find(p => p.id === rId)).filter(Boolean) as typeof productsListing) ?? [];
 
   useEffect(() => { window.scrollTo(0, 0); }, [id]);
 
@@ -35,8 +35,16 @@ const OriginalTemplate = ({ id, name, tagline, description, benefits, dosage, re
 
       <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-          <motion.div initial={{ opacity: 0, scale: 0.96 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, margin: '-50px' }} transition={{ duration: 0.6, ease: 'easeOut' }} className="w-full max-w-[440px] mx-auto aspect-square bg-nzx-green-light border-2 border-dashed border-nzx-green-mid rounded-2xl flex items-center justify-center p-8 shadow-sm">
-            <span className="text-2xl text-nzx-green font-heading font-semibold text-center leading-snug">{name}<br/><span className="text-sm font-body font-normal opacity-70">(Product Image Placeholder)</span></span>
+          <motion.div initial={{ opacity: 0, scale: 0.96 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, margin: '-50px' }} transition={{ duration: 0.6, ease: 'easeOut' }} className="w-full max-w-[440px] mx-auto aspect-square bg-nzx-green-light border-2 border-dashed border-nzx-green-mid rounded-2xl flex items-center justify-center p-8 shadow-sm overflow-hidden">
+            {image ? (
+              <img 
+                src={image} 
+                alt={name} 
+                className="w-full h-full object-contain p-4"
+              />
+            ) : (
+              <span className="text-2xl text-nzx-green font-heading font-semibold text-center leading-snug">{name}<br/><span className="text-sm font-body font-normal opacity-70">(Product Image Placeholder)</span></span>
+            )}
           </motion.div>
           <AnimatedSection delay={0.2} className="flex flex-col h-full justify-center">
             <h2 className="font-heading text-3xl text-nzx-dark mb-4">{name} Overview</h2>

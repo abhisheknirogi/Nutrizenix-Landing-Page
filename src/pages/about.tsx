@@ -1,5 +1,5 @@
 import { PageTransition } from '../components/PageTransition';
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import { AnimatedSection } from '../components/AnimatedSection';
 import { SectionHeader } from '../components/SectionHeader';

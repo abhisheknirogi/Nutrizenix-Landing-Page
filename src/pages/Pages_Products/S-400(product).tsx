@@ -15,11 +15,11 @@ const productData: ProductData = {
     "Nutrient Uptake: Increases the number of white and feeding roots for better absorption while reducing nutrient losses.",
     "Biological Stimulation: Increases the microbiological activity of the soil and stimulates plant biomass production."
   ],
-  dosages: [
+  dosage: [
     "Rate: Two soil applications at 1.5kg per hectare.",
     "Method: Suitable for drenching or direct soil application."
   ],
-  packing: ["Available in 1 kg."],
+  availablePacking: ["1 kg"],
   image: "/src/assets/products/s-400.jpg",
   relatedIds: ["superplus", "vajra", "wetgrow"]
 };

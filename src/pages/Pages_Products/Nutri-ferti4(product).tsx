@@ -15,12 +15,12 @@ const productData: ProductData = {
     "Provides superior resistance to drought and frost conditions.",
     "Helps crops develop a natural resistance to various diseases."
   ],
-  dosages: [
+  dosage: [
     "Rate: Dissolve 3.0 to 5.0 g per litre of water.",
     "Method: Foliar spray applied to both sides of the leaves.",
     "Recommended Crops: Suitable for all crops."
   ],
-  packing: ["Available in 1 kg."],
+  availablePacking: ["1 kg"],
   image: "/src/assets/products/nutri-ferti4.jpg",
   relatedIds: ["nutri-ferti5", "nutri-ferti6", "nutrical"]
 };

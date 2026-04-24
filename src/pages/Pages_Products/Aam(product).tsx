@@ -20,7 +20,7 @@ const productData: ProductData = {
     "Note: Exact dosage may vary depending on the age and growth stage of the mango crop."
   ],
   availablePacking: ["250ml", "500ml", "1000ml", "5 Ltr."],
-  image: "/src/assets/products/aam.jpg",
+  image: "/src/assets/products/Aam.png",
   relatedIds: ["amigrow", "banana", "bhushakthi"]
 };
 

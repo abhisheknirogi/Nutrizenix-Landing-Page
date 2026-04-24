@@ -15,11 +15,11 @@ const productData: ProductData = {
     "Develops a natural resistance against common diseases and pests.",
     "Provides high concentrations of soluble Phosphorus for root development and Potassium for fruit quality."
   ],
-  dosages: [
+  dosage: [
     "Foliar Spray: Dissolve 3.0 to 5.0 g per litre of water and spray on both surfaces of the leaves.",
     "Fertigation: Apply at a rate of 2 to 3 kg per acre."
   ],
-  packing: ["Available in 1 kg."],
+  availablePacking: ["1 kg"],
   image: "/src/assets/products/nutri-ferti2.jpg",
   relatedIds: ["nutri-ferti3", "nutri-ferti4", "nutri-ferti5"]
 };

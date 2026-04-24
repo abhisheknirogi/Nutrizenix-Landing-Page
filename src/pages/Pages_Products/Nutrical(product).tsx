@@ -15,12 +15,12 @@ const productData: ProductData = {
     "Significantly increases the shelf life of fruits, making them better for transport and storage.",
     "100% water solubility ensures that the Calcium and Nitrogen are immediately available to the plant through leaves or soil."
   ],
-  dosages: [
+  dosage: [
     "Foliar Spray: Dissolve 4.0 to 5.0 g of Nutrical per litre of water and spray on both surfaces of the leaves.",
     "Frequency: Perform at least 2–3 sprays during the cropping season.",
     "Soil Application: Apply 25 kg of Nutrical Calcium Nitrate per acre, divided into 5 split doses."
   ],
-  packing: ["Available in 1 kg."],
+  availablePacking: ["1 kg"],
   image: "/src/assets/products/nutrical.jpg",
   relatedIds: ["nutrichill", "nutriferus-12", "nutrigold"]
 };

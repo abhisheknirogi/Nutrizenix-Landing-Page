@@ -14,11 +14,11 @@ const productData: ProductData = {
     "Micronutrient Support: Specifically helps plants overcome micronutrient deficiencies across all crop varieties.",
     "Stress Management: Assists in developing natural resistance against pests, diseases, and abiotic (environmental) stresses."
   ],
-  dosages: [
+  dosage: [
     "Rate: Rate: Mix 2–3 ml of SAMPURNA per 1 liter of water.",
     "Frequency: Repeated applications at 15–20 day intervals will ensure healthy crop growth."
   ],
-  packing: ["Available in 100ml, 250ml, 500ml, 1000ml, and 5 Ltr."],
+  availablePacking: ["100ml", "250ml", "500ml", "1000ml", "5 Ltr"],
   image: "/src/assets/products/sampurna.jpg",
   relatedIds: ["sampurna-4g", "aam", "amigrow"]
 };

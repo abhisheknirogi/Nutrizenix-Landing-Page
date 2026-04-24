@@ -16,11 +16,11 @@ const productData: ProductData = {
     "Boosts overall yield in terms of both quality and quantity.",
     "Supports plant growth and ensures timely maturity."
   ],
-  dosages: [
+  dosage: [
     "Foliar Spray: Dissolve 3 to 5 g per litre of water and spray on both surfaces of the leaves.",
     "Fertigation: Apply 2 to 3 kg per acre through irrigation systems."
   ],
-  packing: ["Available in 1 kg."],
+  availablePacking: ["1 kg"],
   image: "/src/assets/products/nutri-ferti3.jpg",
   relatedIds: ["nutri-ferti4", "nutri-ferti5", "nutri-ferti6"]
 };

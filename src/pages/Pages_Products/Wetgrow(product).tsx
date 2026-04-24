@@ -15,11 +15,11 @@ const productData: ProductData = {
     "Performance Booster: Enhances the performance of pesticides, plant nutrients, and growth promoters, effectively increasing crop yield.",
     "Equipment Maintenance: Acts as a cost-effective cleaning agent for spray equipment and agricultural machinery."
   ],
-  dosages: [
+  dosage: [
     "Rate: Mix 3–4 ml of Wet-Grow per 1 liter of water.",
     "Method: Spray on both sides of the leaves for optimal coverage."
   ],
-  packing: ["Available in 100ml, 250ml, 500ml, 1000ml, and 5 Ltr."],
+  availablePacking: ["100ml", "250ml", "500ml", "1000ml", "5 Ltr"],
   image: "/src/assets/products/wetgrow.jpg",
   relatedIds: ["sampurna", "sampurna-4g", "aam"]
 };

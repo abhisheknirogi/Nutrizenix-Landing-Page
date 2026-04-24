@@ -15,11 +15,11 @@ const productData: ProductData = {
     "Deficiency Correction: Helps crops overcome common and complex micronutrient deficiencies.",
     "High Efficiency: Requires only a small quantity to produce significant qualitative and quantitative increases in yield."
   ],
-  dosages: [
+  dosage: [
     "Rate: 500ml of NUTRI GROW in 200 liters of water per acre.",
     "Frequency: Repeated applications at 15–20 day intervals will keep the crop healthy"
   ],
-  packing: ["Available in 100ml, 250ml, 500ml, 1000ml, 5 Ltr, and 20 Ltr."],
+  availablePacking: ["100ml", "250ml", "500ml", "1000ml", "5 Ltr", "20 Ltr"],
   image: "/src/assets/products/nutrigrow.jpg",
   relatedIds: ["nutrimag", "nutrimix", "pride-x"]
 };

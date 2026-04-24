@@ -1,11 +1,9 @@
-import React from 'react';
 import type { ProductData } from '../../types/product';
 import { ProductPageTemplate } from '../../components/ProductPageTemplate';
 
 const productData: ProductData = {
   id: "superplus",
   name: "Superplus",
-  category: "",
   category: "Micronutrient Fertilizer Mixture (Foliar Spray)",
   tagline: "The catalytic boost for vigorous growth",
   oneLiner: "A 100% water-soluble micronutrient mixture designed for efficient leaf absorption and enhanced immunity.",
@@ -16,11 +14,11 @@ const productData: ProductData = {
     "Growth Catalyst: Takes part in enzymatic functions and acts as a catalytic agent to produce vigorous growth.",
     "Yield & Quality: Helps to increase both the total yield and the overall quality of the farm produce."
   ],
-  dosages: [
+  dosage: [
     "Rate: Use 2–3 ml of Super Plus per 1 litre of water.",
     "Factors: The exact dosage depends upon the specific crop age and growth stages."
   ],
-  packing: ["Available in 100ml, 250ml, 500ml, 1000ml, and 5 Ltr."],
+  availablePacking: ["100ml", "250ml", "500ml", "1000ml", "5 Ltr"],
   image: "/src/assets/products/superplus.jpg",
   relatedIds: ["vajra", "wetgrow", "sampurna"]
 };

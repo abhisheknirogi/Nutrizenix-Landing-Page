@@ -21,7 +21,7 @@ const productData: ProductData = {
     "Suitable for tomato, apple, watermelon, pomegranate, wheat, mustard, and all vegetables."
   ],
   availablePacking: ["100g", "250g", "500g", "1 Kg"],
-  image: "/src/assets/products/calon.png",
+  image: "/assets/images/banana.png",
   relatedIds: ["calon", "citron", "dymond-plus-33"]
 };
 

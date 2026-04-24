@@ -15,11 +15,11 @@ const productData: ProductData = {
     "Growth Catalyst: Participates in enzymatic functions and acts as a catalytic agent to stimulate vigorous growth.",
     "Premium Output: Significantly increases both the total yield and the market quality of the farm produce."
   ],
-  dosages: [
+  dosage: [
     "Rate: Use 2–3 ml of Vajra per 1 litre of water.",
     "Guidance: Adjust dosage depending upon the specific crop age and growth stages"
   ],
-  packing: ["Available in 250ml, 500ml, 1000ml, and 5 Ltr.."],
+  availablePacking: ["250ml", "500ml", "1000ml", "5 Ltr"],
   image: "/src/assets/products/vajra.jpg",
   relatedIds: ["wetgrow", "sampurna", "sampurna-4g"]
 };

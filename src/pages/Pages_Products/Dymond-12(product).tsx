@@ -19,7 +19,7 @@ const productData: ProductData = {
     "Apply 2 sprays at 20-day intervals for better yield."
   ],
   availablePacking: ["100gm", "250gm", "500gm"],
-  image: "/src/assets/products/dymond-12.jpg",
+  image: "/assets/images/dymond.png",
   relatedIds: ["dymond-21", "greenplus", "hi-power"]
 };
 

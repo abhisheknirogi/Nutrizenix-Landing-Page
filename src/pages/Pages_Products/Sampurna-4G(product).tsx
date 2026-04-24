@@ -15,11 +15,11 @@ const productData: ProductData = {
     "Pest Mitigation: Helps in the control of soil-borne threats like nematodes and fungus.",
     "Leaching Prevention: Provides a steady, gradual supply of nutrients to plants, effectively preventing nutrient loss through leaching."
   ],
-  dosages: [
+  dosage: [
     "Rate: 8–10 kg per 1 Acre.",
     "Method: Direct soil application."
   ],
-  packing: ["Available in 5 kg, 10 kg, 20 kg, and 40 kg."],
+  availablePacking: ["5 kg", "10 kg", "20 kg", "40 kg"],
   image: "/src/assets/products/sampurna-4g.jpg",
   relatedIds: ["aam", "amigrow", "banana"]
 };

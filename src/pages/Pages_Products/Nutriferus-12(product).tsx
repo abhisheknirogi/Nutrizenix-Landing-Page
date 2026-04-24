@@ -16,12 +16,12 @@ const productData: ProductData = {
     "Yield Optimization: Increases growth rates and dry matter accumulation, leading to significantly higher yields.",
     "Superior Absorption: The EDTA chelation makes it more effective at helping plants absorb iron compared to conventional micronutrients."
   ],
-  dosages: [
+  dosage: [
     "Rate: Dissolve 2g per 1 liter of water.",
     "Acreage: 250g per 1 Acre.",
     "Frequency: 2 sprays at an interval of 20 days are recommended for better results."
   ],
-  packing: ["Available in 100g, 250g, and 500g."],
+  availablePacking: ["100g", "250g", "500g"],
   image: "/src/assets/products/nutriferus-12.jpg",
   relatedIds: ["nutrigold", "nutrigrow", "nutrimag"]
 };

@@ -15,12 +15,12 @@ const productData: ProductData = {
     "Root Development: Actively helps to increase root growth, ensuring better stability and nutrient uptake.",
     "Higher Productivity: Allows for significantly higher yields and better quality of farm produce."
   ],
-  dosages: [
+  dosage: [
     "Rate: Use 1–1.5 ml per 1 liter of water.",
     "Frequency: Repeat for 2–3 sprays during the crop life cycle for the best results.",
     "Target Crops: Recommended for all agricultural crops."
   ],
-  packing: ["Available in 100ml, 250ml, 500ml, 1000ml, and 5 Ltr"],
+  availablePacking: ["100ml", "250ml", "500ml", "1000ml", "5 Ltr"],
   image: "/src/assets/products/pride-x.jpg",
   relatedIds: ["s-400", "superplus", "vajra"]
 };

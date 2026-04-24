@@ -15,11 +15,11 @@ const productData: ProductData = {
     "Improves the final yield in terms of both quality and quantity.",
     "Provides nitrogen and phosphorus in a 100% water-soluble form for rapid uptake."
   ],
-  dosages: [
+  dosage: [
     "Foliar Spray: Dissolve 4 to 5 grams in one litre of water and spray on plants.",
     "Fertigation: Use 1 to 3 kg per acre through drip or sprinkler irrigation systems."
   ],
-  packing: ["Available in 1 kg."],
+  availablePacking: ["1 kg"],
   image: "/src/assets/products/nutri-ferti6.jpg",
   relatedIds: ["nutrical", "nutrichill", "nutriferus-12"]
 };

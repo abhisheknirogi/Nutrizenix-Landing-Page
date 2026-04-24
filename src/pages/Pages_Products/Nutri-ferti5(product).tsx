@@ -15,11 +15,11 @@ const productData: ProductData = {
     "Significantly improves the plant's resistance to drought conditions",
     "Maintains overall plant health and promotes a vibrant green color."
   ],
-  dosages: [
+  dosage: [
     "Foliar Spray: Dissolve 3.0 to 5.0 g per litre of water and spray directly on the leaves.",
     "Fertigation: Apply 2 to 3 kg per acre through drip irrigation systems."
   ],
-  packing: ["Available in 1 kg."],
+  availablePacking: ["1 kg"],
   image: "/src/assets/products/nutri-ferti5.jpg",
   relatedIds: ["nutri-ferti6", "nutrical", "nutrichill"]
 };

@@ -15,12 +15,12 @@ const productData: ProductData = {
     "Helps prevent complex, multi-crop deficiencies that typically occur gradually at different growth stages.",
     "Safe for high-value crops as it contains no harmful chloride or sodium residues."
   ],
-  dosages: [
+  dosage: [
     "Rate: Dissolve 1.5g to 2g in 1 liter of water.",
     "Acreage: Use 250g in 200 liters of water per acre.",
     "Frequency: For best results, repeat the dose every 15 days."
   ],
-  packing: ["Available in 100g, 250g, and 500g."],
+  availablePacking: ["100g", "250g", "500g"],
   image: "/src/assets/products/nutrichill.jpg",
   relatedIds: ["nutriferus-12", "nutrigold", "nutrigrow"]
 };

@@ -15,11 +15,11 @@ const productData: ProductData = {
     "Protein Synthesis: Plays a critical role in energy production and the synthesis of proteins within the plant system.",
     "Balanced pH: Formulated with a pH range of 4.5–5.5 for optimal soil compatibility."
   ],
-  dosages: [
+  dosage: [
     "Rate: 4–5g per Liter of water.",
     "Application: Designed for soil application across all agricultural crops."
   ],
-  packing: ["Available in 1 KG, 10 KG, and 25 KG"],
+  availablePacking: ["1 KG", "10 KG", "25 KG"],
   image: "/src/assets/products/nutrimag.jpg",
   relatedIds: ["nutrimix", "pride-x", "s-400"]
 };
