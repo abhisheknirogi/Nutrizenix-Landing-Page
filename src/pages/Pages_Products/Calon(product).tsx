@@ -21,7 +21,6 @@ const productData: ProductData = {
     "Apply 2–3 sprays during the cropping season."
   ],
   availablePacking: ["1 KG"],
-  image: "./assets/images/calon.png",
   relatedIds: ["citron", "dymond-plus-33", "dymond-12"]
 };
 

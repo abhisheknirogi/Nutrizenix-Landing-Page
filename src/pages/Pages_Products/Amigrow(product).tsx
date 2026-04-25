@@ -23,7 +23,6 @@ const productData: ProductData = {
     "3rd Spray: During panicle initiation or fruit formation stage"
   ],
   availablePacking: ["100ml", "250ml", "500ml", "1000ml", "5 Ltr."],
-  image: "/src/assets/products/amigrow.jpg",
   relatedIds: ["banana", "bhushakthi", "boron-plus"]
 };
 

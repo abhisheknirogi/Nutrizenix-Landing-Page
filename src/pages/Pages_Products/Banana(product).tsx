@@ -21,7 +21,6 @@ const productData: ProductData = {
     "Note: Exact dosage may vary depending on crop age and growth stage."
   ],
   availablePacking: ["250ml", "500ml", "1000ml", "5 Ltr."],
-  image: "/assets/images/banana.png",
   relatedIds: ["bhushakthi", "boron-plus", "boronplus"]
 };
 

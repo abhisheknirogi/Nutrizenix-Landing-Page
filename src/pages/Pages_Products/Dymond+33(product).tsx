@@ -19,7 +19,6 @@ const productData: ProductData = {
   dosage: ["Apply 2–3 gms per liter of water as a foliar application."],
   recommendedCrops: ["Paddy", "Maize", "Sugarcane", "Cotton", "Fruits", "Vegetables (Potato, Tomato)", "Horticulture", "Plantation crops"],
   availablePacking: ["250g", "500g", "1 KG"],
-  image: "/src/assets/products/dymond-plus-33.jpg",
   relatedIds: ["dymond-12", "dymond-21", "greenplus"]
 };
 

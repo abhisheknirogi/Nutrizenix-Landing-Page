@@ -21,7 +21,6 @@ const productData: ProductData = {
     "Fertigation: Apply 2 to 3 kg per acre through irrigation systems."
   ],
   availablePacking: ["1 kg"],
-  image: "/src/assets/products/nutri-ferti3.jpg",
   relatedIds: ["nutri-ferti4", "nutri-ferti5", "nutri-ferti6"]
 };
 

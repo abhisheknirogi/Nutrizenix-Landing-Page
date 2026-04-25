@@ -22,7 +22,6 @@ const productData: ProductData = {
     "Frequency: 2 sprays at an interval of 20 days are recommended for better results."
   ],
   availablePacking: ["100g", "250g", "500g"],
-  image: "/src/assets/products/nutriferus-12.jpg",
   relatedIds: ["nutrigold", "nutrigrow", "nutrimag"]
 };
 

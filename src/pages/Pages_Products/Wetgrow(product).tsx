@@ -20,7 +20,6 @@ const productData: ProductData = {
     "Method: Spray on both sides of the leaves for optimal coverage."
   ],
   availablePacking: ["100ml", "250ml", "500ml", "1000ml", "5 Ltr"],
-  image: "/src/assets/products/wetgrow.jpg",
   relatedIds: ["sampurna", "sampurna-4g", "aam"]
 };
 

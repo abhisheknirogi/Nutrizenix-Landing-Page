@@ -99,12 +99,12 @@ const ParallaxImage = () => {
 /* ── Main Home Component ── */
 const Home = () => {
   const featuredProducts = [
-    { id: '1', name: 'Sampurna', linkTo: '/products/sampurna' },
-    { id: '2', name: 'Amigrow', linkTo: '/products/amigrow' },
-    { id: '3', name: 'Nutrigold', linkTo: '/products/nutrigold' },
-    { id: '4', name: 'Vajra', linkTo: '/products/vajra' },
-    { id: '5', name: 'Humigrow', linkTo: '/products/humigrow' },
-    { id: '6', name: 'Wetgrow', linkTo: '/products/wetgrow' },
+    { id: 'sampurna', name: 'Sampurna', linkTo: '/products/sampurna' },
+    { id: 'amigrow', name: 'Amigrow', linkTo: '/products/amigrow' },
+    { id: 'nutrigold', name: 'Nutrigold', linkTo: '/products/nutrigold' },
+    { id: 'vajra', name: 'Vajra', linkTo: '/products/vajra' },
+    { id: 'humigrow', name: 'Humigrow', linkTo: '/products/humigrow' },
+    { id: 'wetgrow', name: 'Wetgrow', linkTo: '/products/wetgrow' },
   ];
 
   const statsData = [

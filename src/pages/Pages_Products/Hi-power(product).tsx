@@ -10,7 +10,6 @@ const productData: ProductData = {
   oneLiner: "Dense micronutrient blend formulated for high-value, intensive cropping systems.",
   description: "Nutrizenix Hi-Power is a premium energy complex designed to optimize crop performance. It addresses specific physiological needs during key growth stages, ensuring that your investment translates into higher yields and better market value. Formulated for maximum nutrient use efficiency, this product is a staple for progressive farmers aiming for excellence.",
   benefits: ["Stimulates root development","Improves nutrient uptake efficiency","Enhances resistance to abiotic stress","Increases dry matter accumulation"],
-  image: "/src/assets/products/hi-power.jpg",
   relatedIds: ["high-zinc", "humigrow", "kalpam"]
 };
 

@@ -21,7 +21,6 @@ const productData: ProductData = {
     "Per Plant: 125–150 gm."
   ],
   availablePacking: ["5 KG", "10 KG"],
-  image: "/src/assets/products/bhushakthi.jpg",
   relatedIds: ["boron-plus", "boronplus", "calbon"]
 };
 

@@ -10,7 +10,7 @@ export interface ProductData {
   recommendedCrops?: string[];
   availablePacking?: string[];
   composition?: string[];
-  image: string;
+  image?: string;
   relatedIds: string[];
 }
 
@@ -19,6 +19,6 @@ export interface ProductListingItem {
   id: string;
   name: string;
   category: string;
-  image: string;
+  image?: string;
   oneLiner: string;
 }

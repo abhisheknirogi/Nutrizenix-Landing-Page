@@ -20,7 +20,6 @@ const productData: ProductData = {
     "Suitable for cereals (paddy, maize, sugarcane, cotton), horticulture crops, and vegetables (potato, tomato)."
   ],
   availablePacking: ["1 KG", "10 KG", "25 KG"],
-  image: "/src/assets/products/boron-plus.jpg",
   relatedIds: ["boronplus", "calbon", "calon"]
 };
 

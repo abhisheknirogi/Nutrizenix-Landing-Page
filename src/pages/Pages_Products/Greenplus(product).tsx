@@ -19,7 +19,6 @@ const productData: ProductData = {
   dosage: ["Use 2–3 ml per 1 liter of water."],
   recommendedCrops: ["Cereal crops", "Oil Seeds", "Vegetables", "Plantation Crops"],
   availablePacking: ["100ml", "250ml", "500ml", "1000ml", "5 Ltr."],
-  image: "/assets/images/greenplus.png",
   relatedIds: ["hi-power", "high-zinc", "humigrow"]
 };
 

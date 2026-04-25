@@ -21,7 +21,6 @@ const productData: ProductData = {
     "Recommended Crops: Suitable for all crops."
   ],
   availablePacking: ["1 kg"],
-  image: "/src/assets/products/nutri-ferti4.jpg",
   relatedIds: ["nutri-ferti5", "nutri-ferti6", "nutrical"]
 };
 

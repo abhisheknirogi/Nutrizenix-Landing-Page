@@ -21,7 +21,6 @@ const productData: ProductData = {
     "Effective for horticulture (fruits, plantation crops) and vegetables (potato, tomato)."
   ],
   availablePacking: ["100g", "250g", "500g", "1 Kg"],
-  image: "/src/assets/products/boronplus.jpg",
   relatedIds: ["calbon", "calon", "citron"]
 };
 

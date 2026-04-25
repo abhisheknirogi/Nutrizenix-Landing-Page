@@ -21,7 +21,6 @@ const productData: ProductData = {
     "Soil Application: Apply 25 kg of Nutrical Calcium Nitrate per acre, divided into 5 split doses."
   ],
   availablePacking: ["1 kg"],
-  image: "/src/assets/products/nutrical.jpg",
   relatedIds: ["nutrichill", "nutriferus-12", "nutrigold"]
 };
 

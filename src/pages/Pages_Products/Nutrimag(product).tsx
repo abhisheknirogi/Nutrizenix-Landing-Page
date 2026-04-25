@@ -20,7 +20,6 @@ const productData: ProductData = {
     "Application: Designed for soil application across all agricultural crops."
   ],
   availablePacking: ["1 KG", "10 KG", "25 KG"],
-  image: "/src/assets/products/nutrimag.jpg",
   relatedIds: ["nutrimix", "pride-x", "s-400"]
 };
 

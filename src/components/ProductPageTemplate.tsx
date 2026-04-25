@@ -1,11 +1,12 @@
 import { PageTransition } from './PageTransition';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { AnimatedSection } from './AnimatedSection';
 import { SectionHeader } from './SectionHeader';
 import { ProductCard } from './ProductCard';
 import { productsListing } from '../data/products-listing';
+import { resolveProductImage } from '../utils/imageMap';
 import type { ProductData } from '../types/product';
 
 const OriginalTemplate = ({ id, name, image, tagline, description, benefits, dosage, recommendedCrops, availablePacking, composition, relatedIds }: ProductData) => {
@@ -16,6 +17,10 @@ const OriginalTemplate = ({ id, name, image, tagline, description, benefits, dos
   ];
 
   const relatedProducts = (relatedIds?.map(rId => productsListing.find(p => p.id === rId)).filter(Boolean) as typeof productsListing) ?? [];
+
+  const resolvedImage = resolveProductImage(id);
+  const [imgError, setImgError] = useState(false);
+  const hasImage = !!resolvedImage && !imgError;
 
   useEffect(() => { window.scrollTo(0, 0); }, [id]);
 
@@ -35,15 +40,17 @@ const OriginalTemplate = ({ id, name, image, tagline, description, benefits, dos
 
       <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-          <motion.div initial={{ opacity: 0, scale: 0.96 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, margin: '-50px' }} transition={{ duration: 0.6, ease: 'easeOut' }} className="w-full max-w-[440px] mx-auto aspect-square bg-nzx-green-light border-2 border-dashed border-nzx-green-mid rounded-2xl flex items-center justify-center p-8 shadow-sm overflow-hidden">
-            {image ? (
-              <img 
-                src={image} 
-                alt={name} 
-                className="w-full h-full object-contain p-4"
+          <motion.div initial={{ opacity: 0, scale: 0.96 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, margin: '-50px' }} transition={{ duration: 0.6, ease: 'easeOut' }} className="w-full max-w-[440px] mx-auto aspect-square bg-nzx-green-light border border-nzx-green/10 rounded-2xl flex items-center justify-center overflow-hidden shadow-sm">
+            {hasImage ? (
+              <img
+                src={resolvedImage}
+                alt={name}
+                loading="lazy"
+                onError={() => setImgError(true)}
+                className="w-full h-full object-contain p-6"
               />
             ) : (
-              <span className="text-2xl text-nzx-green font-heading font-semibold text-center leading-snug">{name}<br/><span className="text-sm font-body font-normal opacity-70">(Product Image Placeholder)</span></span>
+              <span className="text-2xl text-nzx-green font-heading font-semibold text-center leading-snug p-8">{name}<br/><span className="text-sm font-body font-normal opacity-70">(Product Image Placeholder)</span></span>
             )}
           </motion.div>
           <AnimatedSection delay={0.2} className="flex flex-col h-full justify-center">

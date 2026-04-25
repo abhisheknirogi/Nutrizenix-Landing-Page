@@ -20,7 +20,6 @@ const productData: ProductData = {
     "Frequency: Repeated applications at 15–20 day intervals will keep the crop healthy"
   ],
   availablePacking: ["100ml", "250ml", "500ml", "1000ml", "5 Ltr", "20 Ltr"],
-  image: "/src/assets/products/nutrigrow.jpg",
   relatedIds: ["nutrimag", "nutrimix", "pride-x"]
 };
 

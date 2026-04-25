@@ -19,7 +19,6 @@ const productData: ProductData = {
     "Frequency: Repeated applications at 15–20 day intervals will ensure healthy crop growth."
   ],
   availablePacking: ["100ml", "250ml", "500ml", "1000ml", "5 Ltr"],
-  image: "/src/assets/products/sampurna.jpg",
   relatedIds: ["sampurna-4g", "aam", "amigrow"]
 };
 

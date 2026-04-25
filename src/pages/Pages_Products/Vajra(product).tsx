@@ -20,7 +20,6 @@ const productData: ProductData = {
     "Guidance: Adjust dosage depending upon the specific crop age and growth stages"
   ],
   availablePacking: ["250ml", "500ml", "1000ml", "5 Ltr"],
-  image: "/src/assets/products/vajra.jpg",
   relatedIds: ["wetgrow", "sampurna", "sampurna-4g"]
 };
 

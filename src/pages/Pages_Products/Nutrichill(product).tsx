@@ -21,7 +21,6 @@ const productData: ProductData = {
     "Frequency: For best results, repeat the dose every 15 days."
   ],
   availablePacking: ["100g", "250g", "500g"],
-  image: "/src/assets/products/nutrichill.jpg",
   relatedIds: ["nutriferus-12", "nutrigold", "nutrigrow"]
 };
 

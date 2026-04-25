@@ -20,7 +20,6 @@ const productData: ProductData = {
     "Frequency: For optimal results, 2–3 sprays are recommended throughout the cropping season."
   ],
   availablePacking: ["500g", "1 kg"],
-  image: "/src/assets/products/nutrimix.jpg",
   relatedIds: ["pride-x", "s-400", "superplus"]
 };
 

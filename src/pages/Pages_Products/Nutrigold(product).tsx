@@ -20,7 +20,6 @@ const productData: ProductData = {
     "Method: Soil application."
   ],
   availablePacking: ["1 kg"],
-  image: "/src/assets/products/nutrigold.jpg",
   relatedIds: ["nutrigrow", "nutrimag", "nutrimix"]
 };
 

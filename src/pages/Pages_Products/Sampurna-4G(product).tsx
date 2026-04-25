@@ -20,7 +20,6 @@ const productData: ProductData = {
     "Method: Direct soil application."
   ],
   availablePacking: ["5 kg", "10 kg", "20 kg", "40 kg"],
-  image: "/src/assets/products/sampurna-4g.jpg",
   relatedIds: ["aam", "amigrow", "banana"]
 };
 

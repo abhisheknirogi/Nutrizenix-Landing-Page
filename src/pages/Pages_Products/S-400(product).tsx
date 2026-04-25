@@ -20,7 +20,6 @@ const productData: ProductData = {
     "Method: Suitable for drenching or direct soil application."
   ],
   availablePacking: ["1 kg"],
-  image: "/src/assets/products/s-400.jpg",
   relatedIds: ["superplus", "vajra", "wetgrow"]
 };
 

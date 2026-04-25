@@ -21,7 +21,6 @@ const productData: ProductData = {
     "Dosage depends on crop age and growth stage."
   ],
   availablePacking: ["250ml", "500ml", "1000ml", "5 Ltr."],
-  image: "/src/assets/products/citron.jpg",
   relatedIds: ["dymond-plus-33", "dymond-12", "dymond-21"]
 };
 

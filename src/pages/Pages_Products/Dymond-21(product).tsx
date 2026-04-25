@@ -21,7 +21,6 @@ const productData: ProductData = {
     "Foliar spray: Dissolve 3.0 g per liter of water and spray on leaf surfaces."
   ],
   availablePacking: ["1 Kg"],
-  image: "/src/assets/products/dymond-21.jpg",
   relatedIds: ["greenplus", "hi-power", "high-zinc"]
 };
 

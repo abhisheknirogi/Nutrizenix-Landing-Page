@@ -21,7 +21,6 @@ const productData: ProductData = {
     "Target Crops: Recommended for all agricultural crops."
   ],
   availablePacking: ["100ml", "250ml", "500ml", "1000ml", "5 Ltr"],
-  image: "/src/assets/products/pride-x.jpg",
   relatedIds: ["s-400", "superplus", "vajra"]
 };
 

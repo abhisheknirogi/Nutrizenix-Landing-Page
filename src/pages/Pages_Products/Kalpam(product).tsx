@@ -21,7 +21,6 @@ const productData: ProductData = {
     "Frequency: Repeat every 15–20 days for sustained healthy growth."
   ],
   availablePacking: ["100g", "250g", "500g", "1kg"],
-  image: "/src/assets/products/kalpam.jpg",
   relatedIds: ["nutri-ferti", "nutri-ferti2", "nutri-ferti3"]
 };
 

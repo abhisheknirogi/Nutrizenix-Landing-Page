@@ -20,7 +20,6 @@ const productData: ProductData = {
     "Fertigation: Apply at a rate of 2 to 3 kg per acre."
   ],
   availablePacking: ["1 kg"],
-  image: "/src/assets/products/nutri-ferti2.jpg",
   relatedIds: ["nutri-ferti3", "nutri-ferti4", "nutri-ferti5"]
 };
 
